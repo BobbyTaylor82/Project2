@@ -26,7 +26,7 @@ def address():
             zip = request.form['zipcode']
             country = request.form['country']
 
-        closetLocation = jsonify (threeNearestLocation(zip,country))
+        closetLocation = threeNearestLocation(zip,country)
 
   
         

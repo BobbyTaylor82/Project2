@@ -55,4 +55,4 @@ def threeNearestLocation(zipCode,countryABBR):
     
     
 
-    return df_Nearseat_locations.to_dict(orient='list')
+    return df_Nearseat_locations.to_json(orient='records')
