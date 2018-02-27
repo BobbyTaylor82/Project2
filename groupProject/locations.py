@@ -37,6 +37,8 @@ def threeNearestLocation(zipCode,countryABBR):
     name_list = []
     phone_list = []
     store_id_list = []
+    lat_list = []
+    long_list = []
 
     for each in location3NearYOU:
         address_list.append(each['address_line_1'])
@@ -45,6 +47,8 @@ def threeNearestLocation(zipCode,countryABBR):
         name_list.append(each['name'])
         phone_list.append(each['telephone'])
         store_id_list.append(each['store_no'])
+        lat_list.append(each['latitude'])
+        long_list.append(each['longitude'])
     
 
 ### distance in meters
@@ -52,9 +56,11 @@ def threeNearestLocation(zipCode,countryABBR):
     df_Nearseat_locations = pd.DataFrame( {"distance_in_meters" : distance_list,
                                              "name"             : name_list,
                                              "address"          : address_list,
-                                             "city"             :  city_list,
+                                             "city"             : city_list,
                                              "phone"            : phone_list,
-                                             "store_no"         : store_id_list})
+                                             "store_no"         : store_id_list,
+                                             "lat"              : lat_list,
+                                             "lon"               : long_list})
     
     locations_dict = {}
     

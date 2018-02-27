@@ -11,22 +11,14 @@ db = client.locationDB
 
 locationTable = db.locationDB
 
-
 @app.route("/")
-
 def index ():
-    title = " Group Project"
-
     locationList = []
     for location in db.locationTable.find():
         location.pop('_id')
-        locationList.append(location)
-        
+        locationList.append(location)   
     locationList = jsonify(locationList)
-
-    return render_template('index.html', title= title , locationList =  locationList)
-
-    
+    return render_template('index.html', locationList =  locationList)
 
 @app.route("/send", methods=["GET", "POST"])
 def address(): 
@@ -49,7 +41,6 @@ def address():
     except:
 
         return "Enter a valid zip code"
-
 
 @app.route("/data/location")
 def locationData():
