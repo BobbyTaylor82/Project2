@@ -36,6 +36,7 @@ def threeNearestLocation(zipCode,countryABBR):
     distance_list = []
     name_list = []
     phone_list = []
+    store_id_list = []
 
     for each in location3NearYOU:
         address_list.append(each['address_line_1'])
@@ -43,16 +44,23 @@ def threeNearestLocation(zipCode,countryABBR):
         distance_list.append(each['distance_in_meters'])
         name_list.append(each['name'])
         phone_list.append(each['telephone'])
+        store_id_list.append(each['store_no'])
     
 
 ### distance in meters
 
     df_Nearseat_locations = pd.DataFrame( {"distance_in_meters" : distance_list,
-                                           "name"     : name_list,
-                                           "address" : address_list,
-                                           "city"     :  city_list,
-                                           "phone"    : phone_list})
+                                             "name"             : name_list,
+                                             "address"          : address_list,
+                                             "city"             :  city_list,
+                                             "phone"            : phone_list,
+                                             "store_no"         : store_id_list})
     
+    locations_dict = {}
+    
+    locations_dict['LocationOne'] = df_Nearseat_locations.iloc[[0]].to_dict(orient='list')
+    locations_dict['LocationTwo'] = df_Nearseat_locations.iloc[[1]].to_dict(orient='list')
+    locations_dict['LocationThree'] = df_Nearseat_locations.iloc[[2]].to_dict(orient='list')
     
 
-    return df_Nearseat_locations.to_json(orient='records')
+    return locations_dict

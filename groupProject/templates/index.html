@@ -15,6 +15,8 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+
 
     <style>
         body,
@@ -52,60 +54,61 @@
     </style>
 </head>
 
-<div>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Project Two</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Link
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">Analysis</a>
-                    </li>
-
-                </ul>
-
-
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-
-
-
-
-</div>
-
-
-
-
-
-
 <body>
+    <div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Project Two</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Link
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Analysis</a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -193,13 +196,20 @@
                     <h1>
                         <u> Location</u>
                     </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non
-                        praesentium deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae
-                        ea?
-                    </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
-                        esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.</p>
-                    
+
+                    <p id="nameOne"></p>
+                    <p id="storeIDOne"></p>
+                    <p id="cityOne"></p>
+                    <p id="addressOne"></p>
+                    <p id="phoneOne"></p>
+                    <p id="distanceOne"></p>
+
+
+
+
+
+
+
                 </div>
 
                 <div class="col-md-3" style="border:black solid 2px; margin:40px;">
@@ -207,13 +217,13 @@
                     <h1>
                         <u> Location</u>
                     </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non
-                        praesentium deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae
-                        ea?
-                    </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
-                        esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.</p>
-                   
+                    <p id="nameTwo"></p>
+                    <p id="storeIDTwo"></p>
+                    <p id="cityTwo"></p>
+                    <p id="addressTwo"></p>
+                    <p id="phoneTwo"></p>
+                    <p id="distanceTwo"></p>
+
                 </div>
 
 
@@ -222,20 +232,19 @@
                     <h1>
                         <u> Location</u>
                     </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non
-                        praesentium deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae
-                        ea?
-                    </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
-                        esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.</p>
-                    
+                    <p id="nameThree"></p>
+                    <p id="storeIDThree"></p>
+                    <p id="cityThree"></p>
+                    <p id="addressThree"></p>
+                    <p id="phoneThree"></p>
+                    <p id="distanceThree"></p>
                 </div>
 
 
 
             </div>
 
-           
+
 
 
 
@@ -248,7 +257,7 @@
         </div>
 
 
-       
+
 
 
 
@@ -256,8 +265,7 @@
 
     </div>
     <!-- total height on page two -->
-    <div id="lol"></div>
-
+    <div class="height" style="height:50px"></div>
     <div id="productPage">
 
         <div class="container text-center" style="border:2px solid black;">
@@ -317,14 +325,7 @@
                     </p>
                 </div>
 
-
-
-
             </div>
-
-
-
-
 
         </div>
 
@@ -334,44 +335,71 @@
 
 
 
-  
+
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
+
+
     <script>
-        var data = [{
-            type: 'scattermapbox',
-            lat: ['45.5017', '45.3000'],
-            lon: ['-73.5673', '-73.5674'],
-            mode: 'markers',
-            marker: {
-                size: 14
-            },
-            text: ['Montreal']
-        }]
+        d3.json('/data/location', function (data) {
 
-        var layout = {
-            autosize: false,
-            hovermode: 'closest',
-            mapbox: {
-                bearing: 0,
-                center: {
-                    lat: 45,
-                    lon: -73
-                },
-                pitch: 0,
-                zoom: 4,
+            var data = data;
+            console.log(data[0]['locations']['LocationOne'])
 
-            },
-        }
+            var distance_One = data[0]['locations']['LocationOne']['distance_in_meters'][0]
+            var address_One = data[0]['locations']['LocationOne']['address'][0]
+            var city_One = data[0]['locations']['LocationOne']['city'][0]
+            var name_One = data[0]['locations']['LocationOne']['name'][0]
+            var storeID_One = data[0]['locations']['LocationOne']['store_no'][0]
+            var phone_One = data[0]['locations']['LocationOne']['phone'][0]
 
-        Plotly.setPlotConfig({
-            mapboxAccessToken: 'pk.eyJ1IjoiZXRwaW5hcmQiLCJhIjoiY2luMHIzdHE0MGFxNXVubTRxczZ2YmUxaCJ9.hwWZful0U2CQxit4ItNsiQ'
-        })
+            document.getElementById('nameOne').innerHTML = "Store Name:" + " " + String(name_One);
+            document.getElementById('cityOne').innerHTML = "City:" + " " + String(city_One);
+            document.getElementById('storeIDOne').innerHTML = "Store Number:" + " " + String(storeID_One);
+            document.getElementById('cityOne').innerHTML = "City:" + " " + String(city_One);
+            document.getElementById('addressOne').innerHTML = "Address:" + " " + String(address_One);
+            document.getElementById('distanceOne').innerHTML = "Distance:" + " " + String(Math.round(distance_One/1609)) + " " +
+                "miles away";
+            document.getElementById('phoneOne').innerHTML = "Phone:" + " " + String(phone_One);
 
-        Plotly.plot('lol', data, layout)
+
+
+            var distance_Two = data[0]['locations']['LocationTwo']['distance_in_meters'][0]
+            var address_Two = data[0]['locations']['LocationTwo']['address'][0]
+            var city_Two = data[0]['locations']['LocationTwo']['city'][0]
+            var name_Two = data[0]['locations']['LocationTwo']['name'][0]
+            var storeID_Two = data[0]['locations']['LocationTwo']['store_no'][0]
+            var phone_Two = data[0]['locations']['LocationTwo']['phone'][0]
+
+            document.getElementById('nameTwo').innerHTML = "Store Name:" + " " + String(name_Two);
+            document.getElementById('cityTwo').innerHTML = "City:" + " " + String(city_Two);
+            document.getElementById('storeIDTwo').innerHTML = "Store Number:" + " " + String(storeID_Two);
+            document.getElementById('cityTwo').innerHTML = "City:" + " " + String(city_Two);
+            document.getElementById('addressTwo').innerHTML = "Address:" + " " + String(address_Two);
+            document.getElementById('distanceTwo').innerHTML = "Distance:" + " " + String(Math.round(distance_Two/1609)) + " " + "miles away";
+            document.getElementById('phoneTwo').innerHTML = "Phone:" + " " + String(phone_Two);
+
+
+            var distance_Three = data[0]['locations']['LocationThree']['distance_in_meters'][0]
+            var address_Three = data[0]['locations']['LocationThree']['address'][0]
+            var city_Three = data[0]['locations']['LocationThree']['city'][0]
+            var name_Three = data[0]['locations']['LocationThree']['name'][0]
+            var storeID_Three = data[0]['locations']['LocationThree']['store_no'][0]
+            var phone_Three= data[0]['locations']['LocationThree']['phone'][0]
+
+
+            document.getElementById('nameThree').innerHTML = "Store Name:" + " " + String(name_Three);
+            document.getElementById('cityThree').innerHTML = "City:" + " " + String(city_Three);
+            document.getElementById('storeIDThree').innerHTML = "Store Number:" + " " + String(storeID_Three);
+            document.getElementById('cityThree').innerHTML = "City:" + " " + String(city_Three);
+            document.getElementById('addressThree').innerHTML = "Address:" + " " + String(address_Three);
+            document.getElementById('distanceThree').innerHTML = "Distance:" + " " + String(Math.round(distance_Three/1609)) + " " + "miles away";
+            document.getElementById('phoneThree').innerHTML = "Phone:" + " " + String(phone_Three);
+
+
+        });
     </script>
-
 
 
 
