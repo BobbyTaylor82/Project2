@@ -13,7 +13,6 @@ if not MONGODB_URI:
 app = Flask(__name__)
 
 app.config['MONGO_URI'] = MONGODB_URI
-mongo = pymongo(app)
 
 client = pymongo.MongoClient()
 db = client.locationDB
