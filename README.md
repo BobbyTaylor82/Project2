@@ -1,5 +1,7 @@
 # Liquor Control Board of Ontario Study and Data Visualizations
 
+![](Images/find_store.png)
+
 ## Motivation:
 The goal of this project is to tell a story through user-driven interaction with data. The project team was inspired to work with realistic data to increase skill working with store/location information.
 
@@ -12,12 +14,17 @@ Endpoints include:
 * /products
 * /inventories
 
+This JSON diagram visualizes the structure of the location data:
+![](Images/JSON_diagram.png)
+
 ## Project Goal:
 The goal of this project is to analyze and visualize aspects of Ontario's Liquor Control Board database. In particular, we set out to give users a way to enter a postal/country code combination to find the nearest LCBO retail outlets. This app:
 
 * Searches for top 3 nearest LCBO retail outlets
 * Visualizes nearest stores in map
 * Displays top LCBO products
+
+![](Images/mapping.png)
 
 
 ## Github repository:
