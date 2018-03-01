@@ -53,6 +53,30 @@ def locationData():
     locationList = jsonify(locationList)
 
     return locationList
+
+@app.route("/data/stores")
+def storeDATA():
+    
+    dfSTORERequiredINFO = pd.read_csv('allSTOREINFOREQUIRED.csv')
+
+    dictSTORERequiredINFO = dfSTORERequiredINFO.to_dict(orient='list')
+        
+    storeINFO = jsonify(dictSTORERequiredINFO)
+
+    return storeINFO
+
+@app.route("/data/stores/beerROOM")
+def BeerRoomDATA():
+    
+    df_Stores = pd.read_csv('allSTOREINFO.csv')
+    dfHASBEERROOM = df_Stores['has_beer_cold_room'].value_counts().reset_index()
+    dfHASBEERROOM.rename(columns={"index":"Bool"},inplace=True)
+    
+    jsonHASBEERROOM = dfHASBEERROOM.to_json(orient='records')
+
+    return jsonHASBEERROOM
+
+
     
 if __name__ == '__main__':
     app.run(debug=True)

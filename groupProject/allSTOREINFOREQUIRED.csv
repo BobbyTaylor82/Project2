@@ -1,0 +1,661 @@
+name,address_line_1,city,lat,long
+Hwy 401 & Weston,2625D Weston Road,North York,43.7127,-79.531
+St Clair & Bathurst,396 St. Clair Ave. West,Toronto,43.684,-79.4154
+Dundas & Dovercourt,1230 Dundas Street West,Toronto,43.6496,-79.4235
+Danforth & Broadview,200 Danforth Avenue,Toronto,43.6769,-79.3561
+Queen & Coxwell,1654 Queen Street East,Toronto,43.6669,-79.315
+Queen & Lansdowne,1357 Queen St. W.,Toronto,43.6421,-79.4324
+Eglinton & Dunfield,101 Eglinton Avenue East,Toronto,43.7074,-79.3948
+St Clair & Oakwood,908 St. Clair Avenue West,Toronto,43.6802,-79.4339
+Bloor & Ossington,879 Bloor Street West,Toronto,43.6619,-79.4251
+Yonge & Summerhill,10 Scrivener Square,Toronto,43.6809,-79.3905
+Gerrard & Pape,932 Gerrard Street East,Toronto,43.6682,-79.3411
+Parliament and Wellesly,512 Parliament Street a,Toronto,43.6655,-79.3687
+Danforth & Greenwood,1145 Danforth Avenue,Toronto,43.681,-79.3333
+Spadina & Dundas,337 Spadina Avenue,Toronto,43.6548,-79.3985
+Dupont & Spadina,232 Dupont Street,Toronto,43.6753,-79.4057
+Yonge & Empress,5095 Yonge Street A4,North York,43.7688,-79.4125
+Front & Sherbourne,222 Front Street East,Toronto,43.6512,-79.3649
+King & Dufferin,"85 Hanna Avenue, Unit 103",Toronto,43.6399,-79.4199
+St Clair & Keele,2151 St. Clair Ave. W.,Toronto,43.6705,-79.4729
+Lake Shore & Islington,2762 Lake Shore Boulevard West,Etobicoke,43.6023,-79.4993
+Golf Links & Hwy 403,737 Golf Links Road,Ancaster,43.2262,-79.955
+Big Bay Point Rd & Yonge,461 Big Bay Point Road,Barrie,44.356,-79.6508
+Barton & Kenilworth,1149 Barton Street East,Hamilton,43.2518,-79.8133
+Clarence & Elm Street,144 Clarence Street,Port Colborne,42.886,-79.2551
+Osler and Main West,119 Osler Drive,Dundas,43.2579,-79.9412
+York & Ridout,71 York Street,London,42.9802,-81.2518
+Oxford Street East & Gammage Street,900 Oxford Street East,London,43.0035,-81.2271
+Broad & Maple Street,222 Broad Street East,Dunnville,42.9035,-79.6152
+William & Claude,415 William Street,Wiarton,44.7435,-81.1386
+Victoria & Durham Street,3 Victoria Street North,Walkerton,44.1338,-81.1472
+First & Pine,1 First Street,Collingwood,44.5028,-80.2182
+University & Church,400 University Avenue West,Windsor,42.3166,-83.0434
+Mcleod & Qew,7481 Oakwood Drive,Niagara Falls,43.066,-79.1211
+Walker & Ottawa,1320 Walker Road,Windsor,42.3136,-83.0012
+Lansdowne West & Parkway,879 Lansdowne Street West,Peterborough,44.2823,-78.3395
+Hazeldean & Castlefrank,457 Hazeldean Rd.,Kanata,45.3002,-75.8874
+Bank & Queensway,640 Bank Street,Ottawa,45.4063,-75.6905
+Rideau & King Edward,275 Rideau Street,Ottawa,45.4288,-75.6863
+3Rd & Albert Street,63 Albert Street,Cobourg,43.9585,-78.1677
+Barrack & King,34 Barrack Street,Kingston,44.233,-76.4807
+Industrial & St Laurent,665 Industrial Avenue,Ottawa,45.4113,-75.6415
+King & John Street,179 King Street West,Brockville,44.5876,-75.6878
+King & Wellington,6-607 King Street West,Kitchener,43.4534,-80.5013
+Market South & Icomm,50 Market Street South,Brantford,43.1355,-80.2617
+Sherbrooke & George,196 Sherbrooke Street,Peterborough,44.301,-78.3213
+Christina & George Street,250 North Christina Street,Sarnia,42.9754,-82.4057
+King & Academy,189 King Street East,St. Catharines,43.1616,-79.2436
+Victoria & Valley Way,4694 Victoria Avenue,Niagara Falls,43.1062,-79.0731
+Second St and Glengarry Blvd,1315-B Second Street,Cornwall,45.025,-74.705
+Elm & Paris Street,190 Cedar Street,Sudbury,46.4926,-80.9908
+Wellington & Gordon,16 Wellington St West -Building B,Guelph,43.5461,-80.2482
+Ontario & Southworth,815 Ontario Road,Welland,42.9761,-79.2397
+Queen & King,52 Queen Street,Cookstown,44.189,-79.7089
+Worthington & Fraser Street,186 Worthington Street West,North Bay,46.3129,-79.4629
+Pembroke Street East & Angus Campbell Dr,1050 Pembroke Street East,Pembroke,45.8211,-77.0841
+Hwy. 401 & 2,325 King Street West,Prescott,44.7078,-75.5164
+Bell & North Front,190A Bell Boulevard,Belleville,44.1872,-77.4049
+Waterloo & Algonquin,100 Waterloo Road,Timmins,48.4779,-81.3371
+Mary & Dunlop,55 Mary Street,Barrie,44.3889,-79.6924
+Wellington & St. Patrick,91 Wellington Street,Stratford,43.369,-80.9833
+Wellington & Raleigh,210 Wellington Street West,Chatham,42.4039,-82.1881
+First & Talbot Street,30 - 1010 Talbot Street,St. Thomas,42.778,-81.177
+Bay and Bruce,293 Bay Street,Sault Ste. Marie,46.5121,-84.3381
+Dundas & Springbank,959 Dundas Street,Woodstock,43.1345,-80.7321
+Front & Division,150 Front Street,Trenton,44.1033,-77.5792
+4Th Street & 5Th Avenue,137 Fourth Street,Cochrane,49.0638,-81.0273
+Lakeshore & Broadway,316 Broadway Street,Haileybury,47.4496,-79.6319
+Park & Railway Street,546 Park Street,Kenora,49.7677,-94.4824
+Third & Mowat Street,210 Third Street East,Fort Frances,48.6129,-93.3985
+Lombard St & Ferrara Dr,123 Lombard Street,Smiths Falls,44.8907,-76.0307
+King & Charles Street,189 King Street East,Gananoque,44.3305,-76.1608
+Dufferin & Wilson,80 Dufferin Street,Perth,44.9076,-76.265
+King & Dolph,1145 King Street East,Preston,43.3929,-80.3522
+Queensway and Ireland,154 Queensway Road East,Simcoe,42.8488,-80.2879
+Devonshire & Cambridge Avenue,187 Devonshire Ave,Iroquois Falls,48.767,-80.6785
+Grandview Ave & Silver Street,28 Silver Street,Cobalt,47.3957,-79.686
+Poyntz Street & Penetang Road,Unit #116,Penetang,44.7655,-79.932
+Armstrong & Cedar,55 Armstrong Street,New Liskeard,47.5069,-79.6711
+Walton Street & Peter Street,15 Ontario Street,Port Hope,43.9521,-78.2938
+Sequin & Miller,19 Seguin Street,Parry Sound,45.3437,-80.0328
+Front & Holditch,55 Front Street,Sturgeon Falls,46.3663,-79.9305
+Kent & Hwy 35,449 Kent Street West,Lindsay,44.3485,-78.7645
+Hwy 34 & Hwy 17,56 Main Street East,Hawkesbury,45.6089,-74.6122
+Hwy. 62 / 33 & County Road 10,2 Lake Street,Picton,44.0033,-77.1511
+Daniel & William,10 Williams Street West,Arnprior,45.4304,-76.3575
+King Street & Kirkpatrick,99 King Street North,Dryden,49.7844,-92.8343
+Front St & Fourth Ave,44 Front Street,Sioux Lookout,50.0981,-91.9152
+Mechanic St. and Broadway St.,25 Mechanic Street,Paris,43.1919,-80.3843
+Mcconnell & Main Street,450 Valois Drive,Mattawa,46.3169,-78.7006
+Center & Richmond Street,45 Richmond Street West,Oshawa,43.8987,-78.866
+Summer Hayes & Duncan Avenue,5 Summer Hayes Avenue,Kirkland Lake,48.1523,-80.0362
+Fourth Avenue & Third Street,65 Fourth Avenue,Englehart,47.8257,-79.8739
+Thompson & Garrison Rd,1105 Thompson Road,Fort Erie,42.9073,-78.9414
+Hwy. 41 & Hwy 60,234 Bonnechere Street,Eganville,45.5439,-77.1055
+Franklin & Dundas,"200 Franklin Blvd., Unit Fs 3",Cambridge,43.3571,-80.2866
+Dundas Street & St. George Street,78 St. George Street,Deseronto,44.1949,-77.0503
+Alkenbrack and Centre St. North,10 Alkenbrack Street,Napanee,44.2567,-76.9613
+Main & Lochiel,372 Main Street South,Alexandria,45.3014,-74.6292
+Notre Dame & Ste Marie,757 Notre Dame Street,Embrun,45.2686,-75.3024
+Christie & Main Street,25 Elm Street,Grimsby,43.1925,-79.5619
+Edward Street & Talisman Drive,155 Edward Street,Gravenhurst,44.9085,-79.37
+Hwy. 6 & Barber Street,139 Barber Street,Espanola,46.2644,-81.7715
+Hwy. 17B & Huron Street,163 Main Street,Thessalon,46.2559,-83.5569
+Hwy. 41 & Country Road 4,714 Addington Street East,Tamworth,44.4879,-76.9944
+Hwy. 11B & William Street,91 King William Street Unit 1,Huntsville,45.3353,-79.203
+Hwy. 89 & 23,440 Main Street West,Palmerston,43.833,-80.8576
+Woodward Avenue & Murray Stree,30 Woodward Avenue,Blind River,46.1867,-82.9535
+Sandwich & Pickering,495 Sandwich Street South,Amherstburg,42.0938,-83.1072
+Mcnaughton & Hwy 40,30 Mcnaughton Avenue Unit #10,Wallaceburg,42.5881,-82.3866
+Church & Bedford,15 Church Street,Westport,44.6791,-76.3961
+Brunetville Road & Ash Street,25 Brunetville Road,Kapuskasing,49.4195,-82.4176
+Hwy. 60 & 62,18 Dunn Street,Barry's Bay,45.488,-77.6801
+6Th & Atwood,318 Atwood Avenue,Rainy River,48.7221,-94.5709
+King S. & William,115 King Street South,Waterloo,43.462,-80.5218
+Church & Arthur Street,31 Church Street West,Elmira,43.6,-80.5599
+Lorne Street & Birch Road,25 Lorne Street South,Chapleau,47.8426,-83.4009
+Hanna & Dennie,12 Hanna Street,Capreol,46.7062,-80.9219
+Elgin & Wellington St,205 Elgin Street,Merrickville,44.9154,-75.8348
+West Dock,1109 Westshore Road,Pelee Island,41.762,-82.6887
+Russel & Champlain Road,3926 Champlain Street,Bourget,45.4312,-75.1563
+8Th Street & George Street,806 George Street,Hearst,49.6887,-83.6633
+Molan Street & Hwy 34,16 Molan Street,Lancaster,45.1413,-74.4987
+Queen & King,20 Queen Street,Niagara-On-The-Lake,43.255,-79.0716
+Richelieu & Poupart,3000 Richelieu Street - Unit 2,Rockland,45.5339,-75.3056
+Hwy. 2 & Queen Street,34 Queen Street South,Tilbury,42.2577,-82.4321
+Hwy. 31 & 2,15 Main Street,Morrisburg,44.9004,-75.1837
+Bruce & Main Street,65 Bruce Street,South Porcupine,48.4779,-81.2117
+3 Street & Main Street,100 Main Street,Geraldton,49.7254,-86.9482
+Wellington Street & Muskoka Road,125 Muskoka Road 118 West,Bracebridge,45.0441,-79.3261
+County Road Hwy. 19 & 21,20 Main Street West,Ridgetown,42.4388,-81.8875
+Mcneely Ave & Trans-Canada Hwy,525 Mcneely Avenue,Carleton Place,45.1325,-76.1186
+Petrolia Line & Hwy 21,4353 Petrolia Street,Petrolia,42.8813,-82.1342
+Government Road & Godfrey Stre,38 Government Road,Larder Lake,48.1006,-79.7135
+Hwy. 62 & 7,219 Russell Street,Madoc,44.5101,-77.4784
+Hwy. 35 & South Water Street,18 Water Street,Minden,44.9266,-78.7234
+Hwy. 105 & Discovery Road,4 Discovery Road,Red Lake,51.018,-93.8228
+Main & Oak Street,125 Oak Street West,Bothwell,42.6296,-81.8703
+Dalton & Black River Rd,20954 Dalton Rd,Sutton,44.303,-79.3581
+Montreal Road and Vanier Parkway,230 Montreal Road,Vanier,45.4358,-75.662
+King Street & Walker Road,119 King Street West,Harrow,42.0353,-82.9207
+Hwy. 45 & Front Street,18 Front Street West,Hastings,44.3089,-77.9576
+Dundurn & Charlton,233 Dundurn Street South,Hamilton,43.2545,-79.891
+O'Brien & Wrangler Road,910 O'Brien Road,Renfrew,45.4778,-76.6558
+Holland Street West & Summerlyn Trail,484 Holland Street West,Bradford,44.1077,-79.5914
+Grosvenor & High Street,11 Grosvenor,Southampton,44.496,-81.3735
+Third Street & Newton Avenue,21 Third Street,Nipigon,49.0125,-88.2619
+N Service Rd & Dorval,270 North Service Road West,Oakville,43.4459,-79.7046
+Bloor & Royal York,2946 Bloor Street West,Etobicoke,43.6483,-79.5081
+Ontario & Peninsula Road,Suite 1 - 1C Ontario Street,Marathon,48.7185,-86.3808
+Wentworth & Cedar,199 Wentworth Street West,Oshawa,43.8691,-78.8502
+Erie South & Seacliff Drive,16 Seacliff Dr. East,Leamington,42.0335,-82.5981
+Midland & Princess,1089 Midland Avenue,Kingston,44.2627,-76.5745
+Cumberland & Water Street,100 North Cumberland Street,Thunder Bay,48.4378,-89.2166
+Guelph & Mountainview,236 Guelph St. Unit B,Georgetown,43.6498,-79.9012
+Meredith & Dawson Street,1 Dawson Street,Gore Bay,45.9183,-82.4649
+Hwy. 6 & Manitowaning Road,17 Manitowaning Road,Little Current,45.9793,-81.9256
+Hwy 124 & Ottawa Street,287 Highway 124 North,South River,45.837,-79.3767
+Hwy. 54 & 3,1 Talbot Street West,Cayuga,42.95,-79.8563
+Hwy. 21 & Lindsley Street,188 Lindsley Street West,Dresden,42.5921,-82.1805
+Hwy. 11 & Burton Road,423 Hwy. 11,Matheson,48.5323,-80.4626
+Danforth & Victoria Park,3111 Danforth Avenue,Scarborough,43.6911,-79.2859
+Eglinton & Laird,65 Wicksteed Avenue,Toronto,43.7097,-79.36
+Mohawk & Upper Wentworth,76 Mall Road,Hamilton,43.221,-79.8615
+Arthur & Talbot Street,39 Arthur Avenue,Essex,42.174,-82.8202
+Princess & Concession,905 Princess Street,Kingston,44.2409,-76.5105
+Riddell & Centennial,"510 Riddell Road,",Orangeville,43.9038,-80.1196
+Thames & Charles Street,68 Charles Street West,Ingersoll,43.0386,-80.8861
+Main & Burns,116 Main Street East,Atikokan,48.7578,-91.6206
+Sandalwood & Kennedy,170 Sandalwood Parkway E.,Brampton,43.7267,-79.7977
+Louisa & Main Street,109 Louisa Street,Thedford,43.1641,-81.8532
+Hwy. 17 North,7 Simcoe Plaza,Terrace Bay,48.7825,-87.1028
+Victoria Street & Bridge Street,16 Bridge Street E,Tweed,44.4799,-77.3141
+Front & Mississaga Street,201 Mississaga Street East,Orillia,44.6106,-79.4136
+Hwy. 7 & 14,23 Forsyth Street,Marmora,44.4833,-77.6828
+Bridge Street & Front Street,37 Front Street South,Campbellford,44.307,-77.7978
+Upper Middle & 8Th Line,1011 Upper Middle Road East,Oakville,43.4823,-79.6946
+Hwy. 11 & Main Street,222 Main Street,Beardmore,49.6021,-87.9593
+James & Hwy. 3,249 James Street,Delhi,42.8548,-80.4935
+Lakeshore & Hwy 10,200 Lakeshore Road East,Mississauga,43.5577,-79.5795
+Main & Queen,27 George Street North,Brampton,43.6857,-79.7623
+Broadway Avenue & Ganley Street,20 Ganley Street,Wawa,47.9957,-84.7721
+Yonge & Wedgewood,5995 Yonge Street,North York,43.7889,-79.4174
+Jane & Wilson,1618 Wilson Avenue,North York,43.7212,-79.5104
+Bayfield & Hanmer,534 Bayfield Street,Barrie,44.4145,-79.7132
+Brock & Dundas,111 Gilbert Street East,Whitby,43.8768,-78.9399
+Hwy. 11 & Main Avenue,138 Highway 11 East,Smooth Rock Falls,49.275,-81.6255
+Main at Traffic Circle,1601 Main Street East,Hamilton,43.2384,-79.8017
+Salem & Taunton,1979 Salem Road North,Ajax,43.8971,-79.0283
+Wellington & Grand,85 Wellington Road,London,42.9713,-81.2375
+Notre Dame Street & 11Th Street,337 Notre Dame Street,Belle River,42.2931,-82.6993
+Shaw & Kerr Street,10 Shaw Street,Elmvale,44.5854,-79.8648
+Eglinton & Warden,1900 Eglinton Avenue East,Scarborough,43.7295,-79.2924
+Hwy 81 & Hwy 21,"49 Main Street East, Building a",Grand Bend,43.3064,-81.7624
+Champlain Avenue & Deep River,47 Champlain Avenue,Deep River,46.1004,-77.4885
+Kingston & Morningside,4525 Kingston Road,Scarborough,43.7715,-79.1845
+Broadway & Bridge,200 Broadway Street,Tillsonburg,42.8629,-80.7293
+Clarke & Dundas,348 Clarke Road,London,43.0032,-81.1745
+Bayly & Harwood,105 Bayly Street West,Ajax,43.842,-79.0223
+Lakeshore & Murphy Nw Corner,1142 Lakeshore Road,Sarnia,43.0151,-82.3657
+Lakeshore and Elizabeth,413 Elizabeth Street,Burlington,43.326,-79.7956
+Front St & Fifth Ave,36 Fifth Avenue,Hornepayne,49.2164,-84.7765
+Hwy. 10 & Toronto Street,155 Toronto Street,Markdale,44.3217,-80.6521
+Dundas & Hwy 427,250 the East Mall,Etobicoke,43.6313,-79.5537
+Hwy. 62 & Station Street,16B Station Street,Bancroft,45.0595,-77.8567
+Hwy. 89 & Young,36 Young Street,Alliston,44.1493,-79.8819
+Hwy 9 and Hwy 21,781 Broadway Street,Kincardine,44.1761,-81.615
+Hwy 416 & Hwy 43,324 Colonnade Drive East #100,Kemptville,45.0303,-75.634
+Richmond & Kirkwood,222 Richmond Road,Ottawa,45.3941,-75.7489
+Main & Mary Street,234 Mary Street,Dutton,42.6632,-81.5031
+Queensway & Park Lawn,125 the Queensway,Etobicoke,43.6299,-79.4819
+Carroll & Caradoc,70 Carroll Street East,Strathroy,42.9471,-81.6093
+Queens Quay & Yonge,2 Cooper Street,Toronto,43.643,-79.3723
+N Service & Dixie,1077 North Service Road,Mississauga,43.5906,-79.5775
+Hwy 169 & Gordon St,3132 Hwy 169,Bala,45.0157,-79.6142
+Huron & Barber Walk,66 Huron Walk,Manitouwadge,49.1272,-85.827
+Scugog Line 6 & Hwy 7A,1535 Hwy 7A,Port Perry,44.0951,-78.9625
+King Street & Hwy. 36,37 King Street East,Bobcaygeon,44.536,-78.5414
+Hwy. 121 & 118,230 Highland Street,Haliburton,45.0464,-78.5076
+Bay & Mill,336 Bay Street,Beaverton,44.429,-79.1554
+Hillside & Ontario Street,11 Charles Walk,Elliot Lake,46.3863,-82.648
+Yonge & Davis,17555 Yonge Street,Newmarket,44.0557,-79.4795
+King Street & Heritage Drive,930 Jones Road,Midland,44.7291,-79.8718
+Ellesmere & Victoria Park,55 Ellesmere Road,Scarborough,43.7564,-79.3141
+Parkside & St. David,97 Parkside Dr West,Fergus,43.7113,-80.3877
+Front & Tenth Street,202 10Th Street,Keewatin,49.7619,-94.5541
+Hwy. 7 & 30,"30 Ottawa Street,",Havelock,44.4334,-77.8901
+Hwy 520 & Hwy 11,10 Commercial Drive,Burk's Falls,45.6099,-79.4021
+Upper James & Fennell,657 Upper James Street,Hamilton,43.2352,-79.8766
+Eglinton & Kipling,211 Lloyd Manor Road,Etobicoke,43.6754,-79.5571
+Hwy 11 & Hwy 534,601 Main Street,Powassan,46.0767,-79.3598
+"Errington & HWY.144,. 1 / 2 Mile",3468 Errington Avenue,Chelmsford,46.5792,-81.198
+Winchester & Baldwin,11 Winchester Road East,Brooklin,43.9534,-78.9604
+Hwy. 6 & Market,117 Market Street East,Port Dover,42.7877,-80.2013
+Wellington & Hwy #3,30 Wellington Street,Aylmer,42.7717,-80.9873
+Main & Centre Street,3 Centre St.,Port Rowan,42.6254,-80.451
+Hwy. 11 & Wildflower Street,3 Wildflower Avenue,Temagami,47.064,-79.7898
+Brimley & Eglinton,510 Brimley Road,Scarborough,43.7356,-79.2482
+Bank & Walkley,1980 Bank Street,Ottawa,45.3666,-75.6614
+Mosley & 45Th,1900 Mosley Street,Wasaga Beach,44.4751,-80.0749
+Hwy. 11 & Forestry Road,116 Forestry Road,Longlac,49.7809,-86.5352
+Lite & Louisa Street,692 Lite Street,Point Edward,42.9912,-82.4064
+Hwy 2 & Park,11 Park Street,Brighton,44.0413,-77.7375
+Yonge Street & Crosby Ave,10375 Yonge Street North,Richmond Hill,43.8807,-79.4386
+Upper Gage & Fennell,971 Fennell Avenue East,Hamilton,43.2286,-79.8371
+Gray's Rd & Hwy. 8,122 Hwy. 8,Stoney Creek,43.223,-79.745
+Hwy. 169 & 612,426 High Street,Mactier,45.1341,-79.7698
+Glendale & Merritt,343 Glendale Ave.,St. Catharines,43.1369,-79.2151
+Lawrence & Don Mills,195 the Donway West,North York,43.7363,-79.3461
+Tupper & King Street,4 Centre Street,Millbrook,44.1521,-78.4486
+Main & Bronte Street,14 Main Street East,Milton,43.5087,-79.8874
+Hwy. 17 & Imperial N. & S.,250 Imperial Street S.,Massey,46.212,-82.0771
+Hwy 71 & Govt. Dock Rd.,Hwy. 71,Sioux Narrows,49.4101,-94.0968
+Queen & Spragge,13 Spragge & Queen Street,Manitowaning,45.7446,-81.8069
+Hwy 12 Sturgeon Bay Rd & Coldwater Rd,48 Coldwater Road,Coldwater,44.7062,-79.6433
+10Th St & 22Nd Ave,893 10Th Street,Hanover,44.1553,-81.0055
+Nichols & Water,2 Nichols St,Lakefield,44.4212,-78.2704
+Heritage Hwy. 4 & 2,17 Plaza Drive,Iroquois,44.8495,-75.3161
+Hwy 2 & Waverly Rd,2344 Highway #2,Bowmanville,43.9075,-78.7102
+Main & Market Street,196 Main Street,Lucan,43.189,-81.4054
+Hwy. 50 & King Side Road,30 Mcewan Drive East,Bolton,43.8629,-79.7135
+County Road 17 & Renfrew Stree,2 Renfrew Street,Petawawa,45.8867,-77.2582
+Elizabeth & Mill Street,12 Elizabeth St. E.,Creemore,44.3256,-80.1038
+Hwy. 6 & Haddington Street,309 Argyle Street South,Caledonia,43.064,-79.9601
+Markham & Lawrence,3441 Lawrence Avenue East,Scarborough,43.7579,-79.2326
+Huron Road & Suncoast Dr E,520 Huron Road,Goderich,43.7314,-81.6916
+Albert & Josephine,16 Albert Street West,Wingham,43.8914,-81.3096
+Elgin & Superior Street,204 Elgin Street,White River,48.5904,-85.2811
+Main St. N & Hwy 8 W,50 Main Street North,Seaforth,43.5547,-81.3921
+Main & East Street,11 Main Street,Zurich,43.4215,-81.6189
+Main St and Wellington,146 Main Street South,Exeter,43.3525,-81.4814
+Hwy. 23 & 86,598 Mitchell Road South,Listowel,43.7353,-80.9632
+Victoria & Main Street,8 Main Street South,Forest,43.0965,-82.0009
+E.C. Row & Manning,15 Amy Croft,Tecumseh,42.3056,-82.8678
+Keele & Lawrence,1339 Lawrence Ave. West,North York,43.7085,-79.4763
+Monroe Crescent & First Street,55 First Street,Elk Lake,47.7321,-80.3382
+King & Sturgeon Street,4 King Street,Omemee,44.2987,-78.5594
+Hwy. 4 & Hwy 8,95 Maple Street,Clinton,43.6199,-81.5378
+Brock & Bay Street,23 Brock Street,Tobermory,45.2551,-81.6623
+Bruce Road #10 & First Avenue,115 First Avenue North,Chesley,44.3032,-81.0963
+Hwy 11 & Hwy 71,Hwy. 11,Emo,48.6334,-93.8302
+Main & Jasperson,410 Main Street East,Kingsville,42.0388,-82.7215
+Lasalle & Barrydowne,1467 Lasalle Boulevard,New Sudbury,46.5211,-80.9425
+Mapleview & Bryne Drive,37 Caplan Avenue,Barrie,44.337,-79.6905
+Wellington Street & Parkview D,115 Parkview Drive,St. Marys,43.261,-81.143
+Hwy. 522 & Loring Road,14 Wilson Lake Cres.,Port Loring,45.916,-79.9856
+"Main , Nash, & Beaver","300 Main St, Ignace Shopping Center",Ignace,49.4164,-91.6608
+Spruce Street & Balsam Avenue,16 Spruce Street,Ear Falls,50.6392,-93.2363
+Hwy. 6 & 9,151 Catherine Street West,Arthur,43.8281,-80.5337
+Currie & Mckellar Street,228 Currie Street,Glencoe,42.7469,-81.7129
+Dundas & Jane,3520 Dundas Street West,Toronto,43.6661,-79.4889
+Main St & Mill St,69 Main Street South,Milverton,43.561,-80.9255
+Young & Queen,256 Queen Street,Acton,43.6344,-80.0309
+Broadway & Townline,40 B Broadway,Orangeville,43.921,-80.0874
+Queen Street & Prince William,37 St. James Street,Waterford,42.9337,-80.2935
+9Th Avenue & 16Th Street,1613 9Th Avenue East,Owen Sound,44.5741,-80.926
+Queen & Ottawa,124 Queen Street,Almonte,45.2284,-76.1933
+Hwy. 6 & 89,195 King Street West,Mount Forest,43.9798,-80.7353
+Hwy. 43 & Queen Street,150 Queen Street,Chesterville,45.1015,-75.2368
+Hwy. 2 & Dundas Street,"623 Hwy. 2, Cardinal Village Square",Cardinal,44.7884,-75.3825
+Albert Street & Hwy. 35,13 Albert Street,Coboconk,44.6583,-78.7988
+Hwy. 121 & Colbourne Street,27 Francis Street West,Fenelon Falls,44.5376,-78.7384
+Hwy 503 & Hwy 121,4094 Highway 121,Kinmount,44.7845,-78.6529
+St. Isidore & Main Street,2538 St. Isidore Street,St. Isidore,45.3886,-74.9062
+Hwy. 43 South & 417 North,3 Main Street,Maxville,45.2877,-74.8547
+Wonderland and Oxford,681 Wonderland North,London,42.9884,-81.2942
+Yonge & Brookland,14824 Yonge St.,Aurora,43.9892,-79.4655
+Prince Charles & Fitch,200 Fitch Street,Welland,42.9956,-79.2662
+Mosley & Second,90 Mosley,Wasaga Beach,44.5215,-80.0207
+Hwy. 512 & 62,161 Queen Street,Killaloe,45.5552,-77.4162
+Hwy 17 & Tower Road,Hwy. 17 & 142 Tower Road,Vermilion Bay,49.8573,-93.3767
+Elgin Street & Main Street,19 Main Street East,Athens,44.6264,-75.9509
+Hwy. 4 & 6,114 Garafraxa Street South,Durham,44.176,-80.8186
+Burleigh & Wellington,3 Burleigh Street,Apsley,44.7539,-78.0864
+Ottawa Street & Haycreek Road,16 Hay Creek Road,Whitney,45.4925,-78.2383
+Overlea & Millwood,45 Overlea Boulevard,Toronto,43.7064,-79.3456
+Britannia & Queen,128 Queen Street South,Mississauga,43.5828,-79.7177
+Hwy. 64 & 535,142 St David Street North,Noelville,46.1399,-80.4311
+Hwy. 69 & 644,Hwy. 69,Pointe Au Baril,45.5958,-80.3738
+Carling & Kirkwood,1385 Carling Avenue,Ottawa,45.3864,-75.7394
+Speedvale & Stevenson,378 Speedvale Avenue East,Guelph,43.5674,-80.2571
+Hwy 5 & Hwy 6,74 Dundas Street East,Waterdown,43.3162,-79.9112
+Hwy. 69 North & Elmview Drive,5-5085 Hwy 69,Hanmer,46.6517,-80.9883
+Main & Huron Street,538 Huron Street,Watford,42.947,-81.8785
+Steeles & Hwy 410,545 Steeles Ave. E.,Brampton,43.6779,-79.7194
+Bridge & Carlow Street,325 Bridge Street,Port Stanley,42.6647,-81.2151
+Nelson & Sykes Street,31 Nelson Street,Meaford,44.6075,-80.5932
+Quebec & Railroad Street,112 Quebec Street,Nakina,50.1783,-86.7098
+Bay & King,100 King Street West,Toronto,43.6486,-79.3822
+Winston Churchill & Aquitaine / Battleford,6975 Meadowvale Town Centre,Mississauga,43.5819,-79.7582
+Hwy 17 & Oliver Road,4793 Hwy 11 / 17,Kakabeka Falls,48.4014,-89.6146
+Hwy. 518 & Main Street,86 Main Street,Kearney,45.5556,-79.2239
+Thompson Street & St. Clair Parkway,42 Thompson Street,Courtright,42.8204,-82.473
+Hwy. 101 & Young Street,30 Young Street,Foleyet,48.2446,-82.4417
+Montreal & St. Andrew,136 St. Andrew Street,Mitchell,43.4678,-81.1959
+Woodbine & Arlington,76 Arlington Drive,Keswick,44.2341,-79.4508
+Spadina Road and Lonsdale Road,420 Spadina Road,Toronto,43.6889,-79.4129
+Lansdowne East & Ashburnham,400 Lansdowne Street East,Peterborough,44.2931,-78.29
+Hwy 24 & Hwy 401,"101 Holiday Inn Drive, Unit C",Cambridge,43.4194,-80.3246
+Victoria & Edna,617 Victoria Street North,Kitchener,43.4606,-80.4742
+Hwy 7 & Weston,7850 Weston Road,Woodbridge,43.791,-79.5485
+Rosseau,1145 Highway 141,Rosseau,45.2576,-79.6402
+Talbot Street & Hwy. 3,85 Catherine Street East,Blenheim,42.3335,-81.9984
+Hwy. 34 & Mill Street,23 Mill Street,Vankleek Hill,45.5181,-74.6526
+Furnival Road & Queen Street,243 Furnival Road,Rodney,42.5688,-81.6836
+North Augusta & Parkdale,2075 Parkdale Ave,Brockville,44.6125,-75.6866
+Hwy. 15 & Perth Street,131 Perth Street,Elgin,44.6117,-76.2282
+Main Street & Ramona Avenue,219 Main Street,Markham,43.8833,-79.2616
+Hwy. 7 & 8,366 Waterloo Street,New Hamburg,43.3867,-80.7121
+Bayview & Sheppard,2901 Bayview Avenue - Unit #125,North York,43.7698,-79.3845
+Appleby & New,5111 New Street,Burlington,43.3683,-79.753
+Chemong & Towerhill,1154 Chemong Road,Peterborough,44.3287,-78.3391
+Great Northern & Second Line,616 Great Northern Road,Sault Ste. Marie,46.5441,-84.3187
+Wilson & Dufferin,675 Wilson Avenue,North York,43.7327,-79.4547
+Rymal & Upper Centennial Pkwy,2273 Rymal Road East,Stoney Creek,43.1746,-79.7775
+Albion & Kipling,1530 Albion Road,Etobicoke,43.7413,-79.5849
+Lakeshore & Marshall Park,536 Lakeshore Drive,North Bay,46.2726,-79.4435
+Trent Street & Mill Street,14 King Drive North,Frankford,44.2015,-77.5968
+Lakeshore & Trafalgar,276 Lakeshore Road East,Oakville,43.4472,-79.6665
+Martingrove & the Westway,415 the Westway,Etobicoke,43.6833,-79.5647
+Howard & E.C. Row Expwy,3165 Howard Avenue,Windsor,42.2742,-83.0058
+Bank & Findlay Creek,4750 Bank Street,Ottawa,45.3183,-75.595
+Queen & Arthur,2 Queen Street South,Harriston,43.9142,-80.8704
+Front Road & Beach Lane,1550 Front Road,Lasalle,42.2334,-83.1035
+Southdown & Royal Windsor,930 Southdown Road,Mississauga,43.5081,-79.6325
+Hwy. 3 & Kent Road,676 Highway #3 East,Wheatley,42.097,-82.4532
+Lynden & Wayne Gretzky Pkwy,84 Lynden Road,Brantford,43.1726,-80.2403
+Hwy. 81 & 7,1-264 Main Street,Parkhill,43.165,-81.6832
+Old Hwy 17 & Hwy. 17,240 Old Hwy. 17,Plantagenet,45.5398,-74.9916
+Highway 17 and Rocky Ridge Road,Highway 17 & Rocky Ridge Road,Kenora,49.7157,-94.7961
+Hwy 7 & Hwy 38,24593 Highway 7,Sharbot Lake,44.7971,-76.6825
+Gibb & Stevenson,400 Gibb St.,Oshawa,43.8873,-78.8758
+Koval St & Pickle Lake Rd,18 Koval Street,Pickle Lake,51.4649,-90.1986
+Hwy. 2 & Church Street,"9 Toronto Road, Hwy 2",Colborne,44.0056,-77.8892
+Fairway & Manitou,655 Fairway Road South,Kitchener,43.4197,-80.4489
+Cedar & St Andrew,#45 - 130 Cedar Street,Cambridge,43.3527,-80.3297
+Dufferin & Major Mackenzie,9970 Dufferin Street,Vaughan,43.8606,-79.4882
+Metcalfe & Isabella,22 Isabella Street,Ottawa,45.4107,-75.6855
+Mavis & Britannia,5925 Rodeo Drive,Mississauga,43.6131,-79.6886
+Hwy. 47 & Brock Road North,"2B Welwood Drive, Unit 1",Uxbridge,44.0869,-79.135
+Hwy 11 North & Hwy 17 West,1711 Algonquin Avenue,North Bay,46.3306,-79.467
+Robertson & Stafford,1811 Robertson Road,Nepean,45.3302,-75.8167
+Queen Mary & Bath,1280 Bath Road,Kingston,44.2393,-76.5428
+Mccowan & Hwy 7,192 Bullock Drive,Markham,43.8741,-79.2818
+Yonge St & Green Lane,180 Green Lane East,East Gwillimbury,44.0751,-79.4826
+Vansickle & Fourth,420 Vansickle Road,St. Catharines,43.1518,-79.2695
+Richmond & Fanshawe Pk,109 Fanshawe Park Road,London,43.0272,-81.2737
+Carling & Woodroffe,2164 Carling Avenue,Ottawa,45.3695,-75.769
+Regional Road #55 & R.R. #1,R.R. #1,Lively,46.4228,-81.1434
+Major Mackenzie & Weston,3631 Major Mackenzie Drive,Vaughan,43.8449,-79.5557
+Burnhamthorpe & Hwy 427,662 Burnhamthorpe Road,Etobicoke,43.6421,-79.5762
+Hwy. 117 & 35,1059 Main Street,Dorset,45.2462,-78.8935
+St Laurent & Smyth,1910 St. Laurent Boulevard,Ottawa,45.3993,-75.6248
+Portage Rd & Colborne E,3714 Portage Road,Niagara Falls,43.1188,-79.0986
+Dundas Street E & Herchimer Street,400 Dundas Street East,Belleville,44.1694,-77.3542
+Hwy. 118 & Medora Street,115 Medora Street,Port Carling,45.121,-79.579
+Main St & Mostar St,5710 Main Street Unit 1,Stouffville,43.9681,-79.2648
+St. Agnes & Notre Dame,93 Notre Dame St. W.,Azilda,46.5517,-81.1182
+Simcoe Road 10 & Commerce Road,7 Commerce Road,Angus,44.3292,-79.8905
+Regent Street & Long Lake Road,2400 Long Lake Road,Sudbury (South End),46.4398,-81.0048
+Jane & Finch,1 York Gate Boulevard,North York,43.7589,-79.5193
+Hwy. 637 & Channel Street,17 Channel Street,Killarney,45.9703,-81.5116
+Hwy. 7 & 41,12297 Hwy 41 Front Street,Northbrook,44.7357,-77.1598
+Yonge & Wellesley,547 Yonge Street,Toronto,43.6645,-79.3842
+Hunt Club & Merivale,543 West Hunt Club Rd.,Nepean,45.3343,-75.7278
+Hwy 19 & County Rd 42,30 Robinson Street,Port Burwell,42.6463,-80.8065
+Hwy. 14 & Victoria,125 North Street,Stirling,44.2995,-77.5491
+Royal York & Dundas,259 the Kingsway,Etobicoke,43.6613,-79.518
+Dixie & Hwy 7,80 Peel Centre Drive,Brampton,43.7122,-79.7235
+King North & Northfield,571 King Street North,Waterloo,43.5011,-80.5339
+Main & Millwood,41 Main Street,Erin,43.7684,-80.061
+"Hwy. 10, 19 & 24",702 Main Street East,Shelburne,44.0813,-80.1906
+Bloor & Runnymede,2180 Bloor Street West,Toronto,43.6518,-79.4743
+Hwy. 17 & 561,9226 Taylor Street,Bruce Mines,46.3012,-83.7883
+Hwy 144 & Regional Rd 8,Hwy. 544,Onaping,46.6278,-81.4037
+Hwy 3 & King Street,992 Prince Street,Lansdowne,44.4004,-76.0184
+Main & Bay Street,35 First Street,Moosonee,51.2739,-80.6453
+Bloor & Tomken Road,1125 Bloor Street East,Mississauga,43.6116,-79.6015
+Queensway & Islington,1090 the Queensway,Etobicoke,43.6232,-79.5181
+St. Clair and Pioneer Line,807 St. Clair Street,Chatham,42.4316,-82.2198
+Morningside & 401,785 Milner Avenue,Scarborough,43.7968,-79.2047
+King St and Park St,29 Park Avenue,Burford,43.103,-80.4272
+King Street & Indian Line,42 Main Street North,Hagersville,42.9634,-80.0501
+Woodroffe & Baseline,1363 Woodroffe Avenue - Unit a,Nepean,45.3512,-75.7586
+Taunton & Brock,170 Taunton Road West,Whitby,43.9157,-78.9602
+Hwy. 508 & Mill Street,703 Mill Street,Calabogie,45.2943,-76.7313
+Whites & Kingston,"705 Kingston Road, Unit 17",Pickering,43.8188,-79.1131
+Hwy. 2 & Moulinette Road,"33 Long Sault Drive, Long Sault Sc",Long Sault,45.0291,-74.8949
+Derry Rd & Goreway Dr,7205 Goreway Dr Unit 85,Mississauga,43.7194,-79.6366
+3Rd Line & Rebecca,1527 Rebecca Street,Oakville,43.4112,-79.7063
+Wonderland & Southdale,3050 Wonderland Road South,London,42.9377,-81.2802
+Colborne Street & Campbell Street,34 Colbourne Street,Portland,44.6987,-76.1889
+Inglis Street & Willoughby Street,566 Willoughby Street,Lucknow,43.9594,-81.5158
+Hwy. 417 & St. Albert Street,644 Principale Street,Casselman,45.3081,-75.0826
+Truelove Street - at a Dead End,22 Truelove St.,Cobden,45.6275,-76.8866
+Blair & Ogilvie,1130 Blair Road,Gloucester,45.4345,-75.6094
+Kennedy & Sheppard,2356 Kennedy Road,Scarborough,43.7847,-79.2897
+Dundas & Trafalgar,251 Oak Walk Dr.,Oakville,43.4851,-79.7199
+Hwy. 8 & Ontario Street,4315 Ontario Street,Beamsville,43.1667,-79.476
+Hwy. 648 & Esson Road,2763 Essonville Road,Wilberforce,45.0366,-78.2251
+"Hwy. 69 & Muskoka, Road 5",2669 Muskoka Rd. 5,Honey Harbour,44.8686,-79.8224
+Main & Prince Edward Drive,462 Main Street,Wellington,43.9489,-77.3665
+County Rd 9 & Hwy 10,772200 Hwy 10,Dundalk,44.1781,-80.3799
+Hwy. 548 & Main Street,1198 Richard Street,Richard's Landing,46.2928,-84.035
+Avenue & Lawrence,1838-1844 Avenue Road,North York,43.731,-79.4194
+Leslie & Davis,17365 Leslie Street,Newmarket,44.0624,-79.4303
+Iving & Goderich Street,216 Goderich Street,Port Elgin,44.4267,-81.3976
+Carp Road & Hwy. 17,461 Donald B Munro Drive,Carp,45.3447,-76.0378
+Mountainview Road & Argyll Road,"365 Mountainview Rd., South",Georgetown,43.6312,-79.877
+Yonge & Eglinton,2300 Yonge Street,Toronto,43.707,-79.3988
+Hurontario & Dundas,25 Hillcrest Avenue,Mississauga,43.5827,-79.6214
+Exmouth & Lambton Mall Rd.,1450 Quinn Drive,Sarnia,42.9865,-82.3466
+Hwy. 42 and Main Street,39 King Street,Delta,44.6121,-76.1209
+Metcalfe & Mill Street,23 Metcalfe Street,Elora,43.68,-80.4289
+Hwy. 20 & Industrial Park Road,249 St. Catharine St.,Smithville,43.0953,-79.538
+Hwy. 11 & King Street,275 King Street E,Mattice,49.6113,-83.2598
+Manitoba & Winnipeg Street,207 Manitoba Street,Schreiber,48.808,-87.2641
+Harmony & Taunton,1409 Harmony Rd,Oshawa,43.9428,-78.844
+Philipe Street & Hwy. 17,602 St. Philippe Street,Alfred,45.5564,-74.8898
+Lakeshore Road & Geneva Street,115 Lakeshore Road,St. Catharines,43.2047,-79.2437
+Ward St & Causeway,861 Ward Street,Bridgenorth,44.3819,-78.3832
+Hwy 169 & Hwy 11,8409 County Road 169,Washago,44.7532,-79.3373
+Worthington & Bovaird,31 Worthington Ave.,Brampton,43.6831,-79.8163
+Hwy. 48 & Kirkfield Rd,1002 Portage Road,Kirkfield,44.5619,-78.9827
+Main & Church Street,44 Church Street,Warkworth,44.2019,-77.8865
+Hwy. 17 North,3040 Hwy 17 North,Goulais River,46.7339,-84.3492
+Baybridge Road & Hwy 28,5503 Prince Edward Square,Rossmore,44.1393,-77.3845
+George Street & Mill Street,4387 Mill Street,Sydenham,44.4102,-76.5968
+Hwy. 41 & 28,22353 Highway 41,Denbigh,45.1282,-77.2668
+Hwy 27 & Sheardown Rd.,13255 Highway 27,Nobleton,43.9024,-79.6607
+Hwy. 62 & 127 North,33004 Hwy. 62 North,Maynooth,45.2312,-77.9366
+George and Clarence St,99 Clarence Street,Lanark,45.0183,-76.3651
+Hwy. 72 & 582,35 Second Street,Hudson,50.0903,-92.1678
+Fairview and Maple,1235 Fairview Street,Burlington,43.3307,-79.8189
+Hwy. 400 & Port Severn Road,3238 Port Severn Road,Port Severn,44.8046,-79.7168
+Front & Bay,"200 Bay Street, Unit 115",Toronto,43.6465,-79.3801
+Korah Road & Second Line,275 Second Line West,Sault Ste. Marie,46.5368,-84.3655
+Coxwell Avenue & O'Connor,1009 Coxwell Ave,Toronto,43.6969,-79.3289
+Cornwall & Trafalgar,321 Cornwall Road,Oakville,43.4578,-79.6785
+Hwy. 17 & James Street,1 James Street,Iron Bridge,46.2771,-83.2142
+Hwy. 535 & King Street,8 King Street East,St. Charles,46.3627,-80.4151
+King & Beaver Street,34 Beaver Street,Newcastle,43.9182,-78.5879
+Tecumseh & Lauzon,7640 Tecumseh Rd. E.,Windsor,42.3153,-82.9388
+Ira Needles & Highland,235 Ira Needles Blvd,Kitchener,43.4254,-80.5541
+Landsdown & Main Street,5 Main Street North,Callander,46.2228,-79.3653
+Main & Salls Street,125 Salls Street,Red Rock,48.9402,-88.2597
+Dundas & Winston Churchill,2458 Dundas Street West,Mississauga,43.5279,-79.6746
+Scottsdale & Stone Road West,615 Scottsdale Drive,Guelph,43.5141,-80.2394
+Perth & Mcbean,"6179 Perth St, Richmond Plaza",Richmond,45.1936,-75.8425
+Guelph Line & Upper Middle Rd,2025 Guelph Line,Burlington,43.367,-79.8216
+Main Street & Water Street,280 Main Street,Gananoque,44.3246,-76.1615
+Strandherd & Greenbank,120 Riocan Avenue,Nepean,45.2689,-75.7418
+Bank & Holmwood,953 Bank Street,Ottawa,45.3996,-75.6857
+Dawson & Hwy 11 / 17,1010 Dawson Road,Thunder Bay,48.452,-89.2513
+Hwys 2 & 4,2490 Main Street,London,42.9096,-81.2975
+Main & Buckshot Street,7423 Highway 506,Plevna,44.9609,-76.9853
+Hwy 7 & 45,4246 Hwy. # 7,Norwood,44.3815,-77.9811
+Hwy 10 & Eglinton,5035 Hurontario St.,Mississauga,43.6083,-79.6531
+10Th Avenue & 10Th Street,4 - 10Th Avenue South,Earlton,47.7108,-79.8246
+Regional Rd 86,3060 Falconbridge Hwy.,Garson,46.549,-80.8765
+Hwy 11 & Glen,7975 Yonge Street,Innisfil,44.3252,-79.6195
+Hwy. 20 & Rice Road,114 Highway #20 East,Fonthill,43.0475,-79.2793
+Hwy. 59,67 Queen Street,Langton,42.7456,-80.58
+King & Spadina,415 King Street West,Toronto,43.6453,-79.3946
+Yonge & Bloor,20 Bloor Street East,Toronto,43.6708,-79.3859
+Hwy. 26 & Airport Road,204 Beech Street,Stayner,44.4154,-80.0944
+Hwy 520 & Spark St,12 Biddy Street,Magnetawan,45.6649,-79.6428
+Bank & Riverside,"2269 Riverside Drive, Unit #8",Ottawa,45.3862,-75.676
+Brunel Rd & Regional Rd 117,2641 Muskoka Road 117 East,Baysville,45.1486,-79.1185
+Manitou Crescent & Sherwood Avenue,18 Manitou Cresent West,Amherstview,44.2194,-76.6449
+Wonderland N & Gainsborough,1225 Wonderland Road North,London,43.0036,-81.3047
+Hwy. 17 East and Church Street,3213 Hwy 17 B East,Echo Bay,46.4857,-84.0711
+Hwy 15 & 32,"106 Drynan Way, Unit 10",Seeley's Bay,44.474,-76.2381
+Rideau Valley Drive & County R,1154 Currier Street,Manotick,45.2235,-75.6829
+Geneva & Scott,311 Geneva Street,St. Catharines,43.1789,-79.2422
+Bathurst and Centre,180 Promenade Circle,Thornhill,43.8084,-79.4501
+Hwy. 17 & 535,7260 Hwy 535,Hagar,46.4546,-80.4159
+Yonge & Davisville,1941 Yonge Street,Toronto-Central,43.6995,-79.3965
+Bank & Mcleod,465 Bank Street,Ottawa,45.4118,-75.6931
+Hamilton Rd & Oakwood Dr,4349 Hamilton Road,Dorchester,42.9851,-81.0489
+Bay & Bloor,55 Bloor Street West,Toronto,43.6692,-79.3881
+Hwy. 9 & Tottenham Road,55 Queen Street South,Tottenham,44.0199,-79.8038
+William St & Hope St,82 Hope Street West,Tavistock,43.3204,-80.8392
+Godfrey & Serpentine Street,12 Serpentine Street,Copper Cliff,46.4779,-81.0674
+Front St & Jarvis St,87 Front Street E.,Toronto,43.6488,-79.3722
+Lawrence & Pt Union Rd,5508 Lawrence Avenue East,Scarborough,43.7797,-79.1388
+Dundas & Bloor,2290 Dundas Street West,Toronto,43.6553,-79.4508
+Hwy 620 & Centre St,8 Centre Street,Coe Hill,44.8619,-77.8405
+Major Mackenzie & Jane,2943 Major Mackenzie Drive,Maple,43.8491,-79.5345
+Arthur St W & Elma St N,105 Arthur St W,Thornbury,44.5632,-80.4564
+Rideau & Colonel by Drive,103A-50 Rideau Street,Ottawa,45.4257,-75.6913
+Tecumseh & Huron Line,1550 Unit 4 Huron Church Road,Windsor,42.2878,-83.0573
+Brookdale & Ninth,11-960 Brookdale Avenue,Cornwall,45.0239,-74.7515
+Country Rd 16 & Turnberry St,575 Turnberry Street,Brussels,43.7427,-81.2506
+Dundas & Mavis,3020 Elmcreek Rd.,Mississauga,43.568,-79.6313
+Mill Street & Millson Hill Dri,91 Mill Street,Orono,43.9831,-78.6151
+Ottawa & River,1005 Ottawa Street North Unit a,Kitchener,43.4495,-80.4439
+Centennial & Queenston,75 Centennial Parkway North,Stoney Creek,43.2319,-79.7634
+Don Mills & Sheppard,1800 Sheppard Avenue East,North York,43.7786,-79.345
+Albert & Metcalfe,111 Albert Street Unit 117,Ottawa,45.4215,-75.6972
+Caesar Road & Main Street,210 Caesar Road,Belmont,42.8823,-81.0847
+Highland & Westmount,324 Highland Road West Unit 6,Kitchener,43.4392,-80.51
+The Square and Hwy #21,71 Main Street South,Bayfield,43.5635,-81.6965
+Walkers Line & Dundas St,3041 Walkers Line,Burlington,43.3934,-79.8238
+Hwy. 64 & 575,3140 Hwy. 69 North,Val Caron,46.6129,-81.0067
+Queensway & 427,1750 the Queensway,Etobicoke,43.6147,-79.5577
+Yonge Street & Stouffville Road,12300 Yonge Street,Richmond Hill,43.9271,-79.4516
+Airport & Bovaird,"9970 Airport Rd.,",Brampton,43.7619,-79.7212
+Terry Fox & Campeau,499 Terry Fox Drive,Kanata,45.3098,-75.9226
+Hwy. 35 & 60,25846 Hwy 35,Dwight,45.3221,-78.9942
+Florence & Main Street West,93 Main Street West,Norwich,42.9862,-80.6051
+King George Road & Powerline Rd,300 King George Road,Brantford,43.1832,-80.2811
+John & Albert Street,144 Albert Street,Victoria Harbour,44.7509,-79.7761
+Kings Hwy. 36 & 507,1976 Lakehurst Road,Buckhorn,44.5569,-78.3491
+Hwy. 12 & Cameron Street East,25 Cameron Street East,Cannington,44.3502,-79.0377
+Rossland & Wilson,555 Rossland Road East,Oshawa,43.9194,-78.8494
+Victoria Park & Finch,2946 Finch Avenue East,Scarborough,43.7942,-79.3295
+Hwy 17 East,4 Goderich Road,Spanish,46.1939,-82.343
+Fairview & Walker's Line,3365 Fairview Street,Burlington,43.3554,-79.7858
+Hwy. 2 & 21,99 Industrial Road,Thamesville,42.5549,-81.9835
+Yonge & Dundas,595 Bay Street,Toronto,43.6564,-79.3815
+Hazeldean & Main,6065 Hazeldean Road,Stittsville,45.2721,-75.9316
+Water & Mill Street,906 Water Street,Warsaw,44.4307,-78.1376
+King & James,"2 King Street West, Unit #405",Hamilton,43.2572,-79.8693
+Dupont & Dufferin,1245 Dupont Street,Toronto,43.6675,-79.441
+Appleby & Upper Middle Rd,2000 Appleby Line,Burlington,43.3933,-79.7917
+Yonge St & James St,234 Yonge Street,Bonfield,46.2358,-79.145
+Wellington & Bradley,1073 Wellington Road South,London,42.9349,-81.2243
+Hwy. 17 & 2Nd Avenue,24 - 5 Amanda Street,Coniston,46.4945,-80.8462
+Hwy 11 & Government Road,33A Highway 11,Moonbeam,49.3433,-82.1569
+Main Street & Hwy. 31,578 Main Street West,Winchester,45.0908,-75.3612
+Hwy. 12B & 11,293 Coldwater Road,Orillia,44.6094,-79.4393
+Hwy 7 & Birchmount / Village Pkwy,3991 Highway 7,Markham,43.8574,-79.3225
+Hwy. 12 & Gladstone Avenue,King Street South,Brechin,44.5447,-79.1752
+Main & Sauble Falls Pkwy,611 Main Street,Sauble Beach,44.6302,-81.2633
+Hwy. 9 & 25,22 Main Street South,Grand Valley,43.8983,-80.3151
+Mccowan & Finch,1571 Sandhurst Circle,Scarborough,43.8084,-79.2701
+Markham Road & Bur Oak,9720 Markham Road,Markham,43.9021,-79.2668
+Ferry & Stanley,5389 Ferry Street,Niagara Falls,43.0897,-79.0833
+Thickson & Dundas,74 Thickson Road South,Whitby,43.8846,-78.9127
+Hwy. 17 West & Cote Street,10442 Hwy. 17,Verner,46.4134,-80.1289
+Orleans & Jeanne D'Arc,6487 Jeanne D'Arc Boulevard,Orleans,45.4798,-75.5372
+Hwy 7 & Woodbine,3075 Highway 7 East,Markham,43.8497,-79.3562
+Se Corner Oil Heritage&Lambton County 22,"4475 London Line, Reeces Corners",Reeces Corners,42.9789,-82.1203
+Commissioners West & Boler,1240 Commissioners Road West,London,42.9581,-81.331
+Rice Lake Drive & Lake Street,5087 Rice Lake Drive North,Bewdley,44.0893,-78.3211
+Hwy. 124 & Hwy 520,7 Church Street,Dunchurch,45.645,-79.854
+Hwy 48 & Pefferlaw Rd,17 Hastings Road,Pefferlaw,44.3144,-79.2046
+Beachburg Road & Lapasse Road,35 Lapasse Road,Beachburg,45.736,-76.8636
+St Laurent & Queensway,540-1200 St. Laurent Blvd,Ottawa,45.423,-75.6385
+Church St & Airport Rd,16000 Airport Road,Caledon,43.87,-79.8672
+Mavis & Steeles,100 Clementine Dr.,Brampton,43.6454,-79.7552
+Arthur St W & Neebing W,1095 Arthur Street West,Thunder Bay,48.3814,-89.3076
+Hill & Lyndock Street,408 Lyndock Street,Corunna,42.8883,-82.453
+Hwy. 69 & 64,524 Hwy 64,Alban,46.1043,-80.6333
+Innisfil Beach Rd & 20Th Sr,1465 Innisfil Beach Road,Innisfil,44.3085,-79.5743
+Ferndale & Main,"#1 Ferndale Road,",Lion's Head,44.9808,-81.2518
+Hwy 503 and 507,1007 Gooderham Street,Gooderham,44.9067,-78.3804
+Talbot & Ney Avenue,779 Ney Avenue,Port Mcnicoll,44.7454,-79.8072
+Elgin St. West and Rogers Road,1111 Elgin Street West,Cobourg,43.9704,-78.2021
+Industrial Road & Clinton Street,"1 Industrial Road, Unit B",Teeswater,43.9934,-81.2851
+John & Manvers East,646 Drum Road,Pontypool,44.1004,-78.6286
+Hwy. 27 & 9,17240 Hwy 27,Schomberg,44.0037,-79.6779
+Hwy 124 & Paget Street,10403 Hwy 124,Sundridge,45.7703,-79.3939
+Carlton & Church,60 Carlton St,Toronto,43.6621,-79.3803
+County Road 3 & 10,277 Queen Street North,Paisley,44.3074,-81.2732
+Ft William & Main,969 Fort William Road,Thunder Bay,48.4018,-89.2393
+Ottawa & Homer Watson,721 Ottawa Street South,Kitchener,43.4243,-80.483
+Steeles & Dufferin,2181 Steeles Ave W Unit 17,North York,43.7838,-79.4789
+Erin Mills & Eglinton,5100 Erin Mills Parkway,Mississauga,43.5553,-79.7114
+Provincial Hwy. 9 & Absalom St.,1024 Highway #9,Mildmay,44.039,-81.1107
+Hwy. 4 & 84,24 London Road,Hensall,43.4406,-81.5004
+Yonge & Hwy 7,8783 Yonge Street,Richmond Hill,43.8424,-79.4299
+Innes & Tenth Line,4220 Innes Rd,Orleans,45.456,-75.4965
+Conc 16 & County Rd 26,336 B Rue Lafontaine Road West,Lafontaine,44.7586,-80.0529
+Dixie & Dundas St E,1520 Dundas Street East,Mississauga,43.6118,-79.5795
+Major Mackenzie & Leslie,"1520 Major Mackenzie Dr. E.,",Richmond Hill,43.8806,-79.3926
+Bayview & St John,15830 Bayview Ave.,Aurora,44.0204,-79.449
+Main Street & Thompson Road,830 Main Street East,Milton,43.5267,-79.8679
+Hwy 27 & Innovation Drive,8260 Hwy. # 27,Woodbridge,43.7845,-79.6253
+Lakeshore Blvd West & Browns Line,3730 Lakeshore Blvd. West,Etobicoke,43.5941,-79.5393
+Clair & Gordon,50 Clair Road East,Guelph,43.5017,-80.1878
+Bathurst & Rutherford,9310 Bathurst Street,Maple,43.8486,-79.4594
+Eglinton & Avenue Road,333 Eglinton Avenue West,Toronto,43.7042,-79.4093
+Steeles & Laureleaf,"1563 Steeles Avenue East, on",North York,43.8054,-79.3842
+March & Maxwell Bridge,858 March Road,Kanata,45.3583,-75.9359
+College & Bathurst,549 College Street,Toronto,43.6554,-79.4118
+Winston Churchill & 401,3017 Argentia Road,Mississauga,43.5974,-79.7874
+Appleby Line & New Street,501 Appleby Line,Burlington,43.3692,-79.7554
+Allen Rd & Rimrock,1115 Lodestar Road,North York,43.7592,-79.4655
+York Mills & Leslie,808 York Mills Road,North York,43.7541,-79.3568
+Ontario Street & C.H. Meir Blvd,1067 Ontario Street,Stratford,43.3699,-80.9447
+Wellington and Somerset Street West,981 Wellington Street West,Ottawa,45.4058,-75.723
+College & Bay,777 Bay Street,Toronto,43.6605,-79.3846
+Bronte St S. & Louis St Laurent,1025 Bronte Street South,Milton,43.4871,-79.8585
+Bayview & Millwood,1524 Bayview Avenue,Toronto,43.7041,-79.3747
+Avenue Rd & St. Clair W,111 St. Clair Avenue West,Toronto,43.6871,-79.3996
+Kingsway & Barrydowne Rd.,1099 Marcus Drive,Sudbury,46.5009,-80.9469
+King St E & Darlington,1437 King Street East,Courtice,43.9071,-78.8082
+Division St. & John Counter Blvd.,1044 Division Street,Kingston,44.2627,-76.5008
+Mississauga Rd & William Pkwy,"9445 Mississauga Rd.,",Brampton,43.6583,-79.8165
+Queen & Portland,619 Queen Street West,Toronto,43.6476,-79.4015
+Bathurst and Lawrence,502 Lawrence Avenue West,North York,43.7201,-79.4305
+Leslie & Wellington,94 First Commerce Drive,Aurora,44.0127,-79.4179
+Kingston & Mccowan,2963 Kingston Road,Scarborough,43.7247,-79.2316
+Bramalea & Mayfield,"11785 Bramalea Rd, Building C2",Brampton,43.7722,-79.7794
+Hwy. 2 & Mcclure Rd.,1191 Wilson St. W,Ancaster,43.1967,-80.0219
+Upper James & Rymal,1550 Upper James St,Hamilton,43.205,-79.8929
+Lake Shore & Park Lawn,2218 Lake Shore Blvd W,Etobicoke,43.6227,-79.482
+Strandherd Drive & Maravista Drive,4305 Strandherd Drive,Ottawa,45.2687,-75.7813
+King Road & Dufferin Street,1700 King Road,King City,43.9345,-79.5068
+Queen & Broadview,776 Queen Street East,Toronto,43.6596,-79.3476
+York & Lake Shore,15 York Street,Toronto,43.6422,-79.3808
+Keele St & Dundas St,2803 Dundas St W Toronto,Etobicoke,43.6653,-79.4626
+Gorham Road & Dominion Road,379 Gorham Road,Fort Erie-Ridgeway,42.8863,-79.0599
+Innes & Trim Rd,5150 Innes Road,Orleans,45.4689,-75.4557
+Victoria Street & Gordon Street,629 Victoria St W,Whitby,43.8594,-78.9465
+Queen & Bellefair,1986 Queen Street East,Toronto,43.6702,-79.3005
+Square One Dr & Rathburn,65 Square One Drive,Mississauga,43.5974,-79.6432
+Limebank & Spratt,4460 Limebank Rd.,Ottawa,45.2883,-75.672
+Kennedy & 401,21 William Kitchen Rd H2,Scarborough,43.774,-79.2797
