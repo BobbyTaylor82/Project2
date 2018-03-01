@@ -1,17 +1,10 @@
 from flask import Flask, render_template, jsonify,redirect,request
-from flask_pymongo import pymongo
-import os
+import pymongo
 
 from locations import * 
 
-# MONGO_URL = os.environ.get('MONGO_URL')
-MONGODB_URI = os.environ.get('MONGODB_URI')
-if not MONGODB_URI:
-    MONGODB_URI = "mongodb://localhost:50000";
 
 app = Flask(__name__)
-
-app.config['MONGO_URI'] = MONGODB_URI
 
 client = pymongo.MongoClient()
 db = client.locationDB
