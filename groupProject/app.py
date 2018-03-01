@@ -40,7 +40,7 @@ def address():
         return redirect('http://localhost:5000/',code=302)    
     except:
 
-        return "Enter a valid zip code"
+        return "Enter a valid two-letter country code and postal code combination (examples: ca, M4C; us, 78705)"
 
 @app.route("/data/location")
 def locationData():

@@ -47,6 +47,7 @@
             height: 100%;
             margin: 0;
             font-family: 'Oxygen', sans-serif;
+            background-color: white;
         }
 
         #heading {
@@ -125,20 +126,20 @@
             </div>
             <div class="col-sm-4" style="width:350px;height:auto; margin-left: 20px; margin-right: 20px; background-color:NavajoWhite; border:gold solid 1px;">
                 <h4>
-                    <b>Enter Your Zip Code</b>
+                    <b>Enter Your Postal & Country Codes</b>
                 </h4>
                 <ul>
                     <form method="POST" action="/send" role="form" , name="petform">
                         <div class="col-sm-8 form-group">
 
                             <label for="inputName" style="margin-top:12px">
-                                <b>Country Abbrev:</b>
+                                <b>Country Code:</b>
                             </label>
-                            <input type="text" id="inputName" name="country" placeholder="Country">
+                            <input type="text" id="inputName" name="country" placeholder="Country Code">
                             <br>
 
-                            <label for="inputName">Zip Code: </label>
-                            <input type="text" id="inputName" name="zipcode" placeholder="Location">
+                            <label for="inputName">Postal Code: </label>
+                            <input type="text" id="inputName" name="zipcode" placeholder="Postal Code">
                         </div>
                         <input type="submit" style="margin-top:70px" value="Submit" class="btn btn-info btn-lg">
                     </form>
@@ -152,52 +153,52 @@
     </div>
     <hr>
     <div class="line" style="background :NavajoWhite; position:relative; height:8px"></div>
-    <div class="height" style="height:80px"></div>
+    <div class="height" style="height:20px"></div>
     <div id="showLocationsScreen">
         <!-- heigh div -->
-        <div class="height" style="height:50px"></div>
+        <div class="height" style="height:10px"></div>
         <div class="container text-center">
-            <h2>
+            <h1>
                 <u> Nearest Locations</u>
-            </h2>
+            </h1>
             <div class="rows">
-                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
-                    <h1>
+                <div class="col-md-3" style="border:lightgray solid 2px; margin:40px;height:350px">
+                    <h2>
                         <u> Location</u>
-                    </h1>
+                    </h2>
                     <p id="nameOne"></p>
                     <p id="storeIDOne"></p>
                     <p id="addressOne"></p>
                     <p id="cityOne"></p>
 
-                    <p>State: Ontario</p>
+                    <p>Province: Ontario</p>
                     <p>Country: Canada</p>
 
                     <p id="phoneOne"></p>
                     <p id="distanceOne"></p>
                 </div>
-                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
-                    <h1>
+                <div class="col-md-3" style="border:lightgray solid 2px; margin:40px;height:350px">
+                    <h2>
                         <u> Location</u>
-                    </h1>
+                    </h2>
                     <p id="nameTwo"></p>
                     <p id="storeIDTwo"></p>
                     <p id="addressTwo"></p>
                     <p id="cityTwo"></p>
-                    <p>Prov: Ontario</p>
+                    <p>Province: Ontario</p>
                     <p>Country: Canada</p>
                     <p id="phoneTwo"></p>
                     <p id="distanceTwo"></p>
                 </div>
-                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
-                    <h1>
+                <div class="col-md-3" style="border:lightgray solid 2px; margin:40px;height:350px">
+                    <h2>
                         <u> Location</u>
-                    </h1>
+                    </h2>
                     <p id="nameThree"></p>
                     <p id="storeIDThree"></p>
                     <p id="addressThree"></p>
                     <p id="cityThree"></p>
-                    <p>State: Ontario</p>
+                    <p>Province: Ontario</p>
                     <p>Country: Canada</p>
                     <p id="phoneThree"></p>
                     <p id="distanceThree"></p>
@@ -209,8 +210,8 @@
                 <div class="col-md-3">
                     <h1>Map Results</h1>
                     <hr>
-                    <p>This map displays the top three closest stores to your requested postal code. Take a look to get yourself
-                        there faster. Cheers!</p>
+                    <h3>This map displays the top three closest stores to your requested postal code. Take a look to get yourself
+                        there faster. Cheers!</h3>
                 </div>
                 <div class="col-md-8">
                     <div id="mapid"></div>
@@ -226,7 +227,7 @@
         <div class="height" style="height:40px"></div>
 
         <div id="productPage">
-            <div class="container text-center" style="border:1px solid lightgrey;">
+            <div class="container text-center" style="border:2px solid lightgray;">
                 <h1>
                     <u> Beer Cold Room Report</u>
                 </h1>
@@ -240,14 +241,11 @@
                             retailers offer such service. The below graph visualizes the proportion of stores with and without
                             chill rooms. It turns out Ontario’s snows aren’t quite enough to keep beers cold!</h4>
 
+                        <br>
 
-
-                        <!-- <h3>My Google Maps Demo</h3>
-                        <div id="map"></div> -->
-
-                        <h3>My Pie Demo</h3>
-                        <!-- <div id="myDiv"></div> -->
+                       
                         <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+                        <div class="height" style="height:50px"></div>
                     </div>
 
                 </div>
@@ -480,7 +478,7 @@
                         type: 'pie'
                     },
                     title: {
-                        text: 'Has Beer Room'
+                        text: 'Has Beer Room: True or False'
                     },
                     tooltip: {
                         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
