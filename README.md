@@ -29,7 +29,7 @@ The goal of this project is to analyze and visualize aspects of Ontario's Liquor
 * HTML/CSS
 * JavaScript
 * Database: MongoDB
-* Web scraping: Python Beautiful Soup of [BeerAdvocate.com](https://www.beeradvocate.com/)
+* Web scraping: Python Beautiful Soup of [LCBO](http://www.lcbo.com/content/lcbo/en.html#.WpdnthPwbzI)
 * New JavaScript library: [Highcharts](https://www.highcharts.com/)
 
 ## Ideas to extend the project:
