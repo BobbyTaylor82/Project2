@@ -6,8 +6,8 @@ from locations import *
 
 app = Flask(__name__)
 
-client = MongoClient("mongodb://heroku_5rjz7mkb:vpp0qclisno96j9upptus0jl4a@ds151528.mlab.com:51528/heroku_5rjz7mkb")
-db = client.heroku_5rjz7mkb
+client = pymongo.MongoClient()
+db = client.locationDB
 
 locationTable = db.locationDB
 
