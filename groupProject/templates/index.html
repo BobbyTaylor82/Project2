@@ -31,14 +31,14 @@
         crossorigin=""></script>
 
 
-    
+
 
     <!---------------------------------------------------- d3--------------------------------------------------------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
 
     <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 
     <style>
@@ -47,8 +47,6 @@
             height: 100%;
             margin: 0;
             font-family: 'Oxygen', sans-serif;
-           
-          
         }
 
         #heading {
@@ -88,54 +86,72 @@
         #myDiv {
             background-color: yellow;
         }
+
+        #b_image {
+            margin-left: 15px;
+            width: 350px;
+            background-image: url("beer.jpg");
+        }
+
+        .line {
+            background: gold;
+            position: relative;
+            height: 8px;
+        }
     </style>
 </head>
 
 <body>
 
-
     <div id="heading" class="jumbotron jumbotron-fluid" style="text-align:center; height:50%;">
 
 
-        <h1>Find Your Local Beer Store </h1>
+        <h1>Find Your Local Beer Store in Ontario</h1>
 
         <div class="container">
             <h3>This search uses location data supplied by the Liquor Control Board of Ontario (LCBO) plus user-input postal
                 codes to return the nearest LCBO retailer. </h3>
         </div>
     </div>
+
+    <div class="line" style="background :NavajoWhite; position:relative; height:8px"></div>
     <hr>
+
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-4">
                 <img src="http://www.lcbo.com/content/lcbo/en/pages/beer/486-craft-beers-on-the-wall/_jcr_content/hero-content/enhanced_product_her.img.jpg/1515771376964.jpg"
                     class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-4">
-                <img src="http://www.lcbo.com/content/lcbo/en/pages/beer/214-lagers-on-the-wall/_jcr_content/hero-content/enhanced_product_her.img.jpg/1513271593463.jpg"
-                    class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-4">
-                <h4>Enter Your Zip Code</h4>
-                <hr>
+            <div class="col-sm-4" style="width:350px;height:auto; margin-left: 20px; margin-right: 20px; background-color:NavajoWhite; border:gold solid 1px;">
+                <h4>
+                    <b>Enter Your Zip Code</b>
+                </h4>
                 <ul>
                     <form method="POST" action="/send" role="form" , name="petform">
                         <div class="col-sm-8 form-group">
 
-
-                            <label for="inputName">Country Abbrev: </label>
+                            <label for="inputName" style="margin-top:12px">
+                                <b>Country Abbrev:</b>
+                            </label>
                             <input type="text" id="inputName" name="country" placeholder="Country">
                             <br>
 
                             <label for="inputName">Zip Code: </label>
                             <input type="text" id="inputName" name="zipcode" placeholder="Location">
                         </div>
-                        <input type="submit" value="Submit" class="btn btn-info btn-lg">
+                        <input type="submit" style="margin-top:70px" value="Submit" class="btn btn-info btn-lg">
                     </form>
                 </ul>
             </div>
+            <div class="col-sm-4">
+                <img src="http://www.lcbo.com/content/lcbo/en/pages/beer/214-lagers-on-the-wall/_jcr_content/hero-content/enhanced_product_her.img.jpg/1513271593463.jpg"
+                    class="img-responsive" style="width:100%" alt="Image">
+            </div>
         </div>
     </div>
+    <hr>
+    <div class="line" style="background :NavajoWhite; position:relative; height:8px"></div>
     <div class="height" style="height:80px"></div>
     <div id="showLocationsScreen">
         <!-- heigh div -->
@@ -145,7 +161,7 @@
                 <u> Nearest Locations</u>
             </h2>
             <div class="rows">
-                <div class="col-md-3" style="border:black solid 2px; margin:40px;">
+                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
                     <h1>
                         <u> Location</u>
                     </h1>
@@ -160,7 +176,7 @@
                     <p id="phoneOne"></p>
                     <p id="distanceOne"></p>
                 </div>
-                <div class="col-md-3" style="border:black solid 2px; margin:40px;">
+                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
                     <h1>
                         <u> Location</u>
                     </h1>
@@ -173,7 +189,7 @@
                     <p id="phoneTwo"></p>
                     <p id="distanceTwo"></p>
                 </div>
-                <div class="col-md-3" style="border:black solid 2px; margin:40px;">
+                <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
                     <h1>
                         <u> Location</u>
                     </h1>
@@ -188,31 +204,19 @@
                 </div>
             </div>
 
-
             <div class="rows">
 
                 <div class="col-md-3">
-                    <h1>Title</h1>
+                    <h1>Map Results</h1>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo exercitationem aspernatur veritatis
-                        accusantium quam fuga alias, quasi harum, soluta nam voluptate non architecto. Saepe ut debitis,
-                        rerum cupiditate dolores architecto.</p>
-
-
+                    <p>This map displays the top three closest stores to your requested postal code. Take a look to get yourself
+                        there faster. Cheers!</p>
                 </div>
-
                 <div class="col-md-8">
                     <div id="mapid"></div>
 
 
                 </div>
-
-
-
-
-
-
-
             </div>
 
         </div>
@@ -222,22 +226,20 @@
         <div class="height" style="height:40px"></div>
 
         <div id="productPage">
-            <div class="container text-center" style="border:2px solid black;">
+            <div class="container text-center" style="border:1px solid lightgrey;">
                 <h1>
-                    <u> All Store Locations</u>
+                    <u> Beer Cold Room Report</u>
                 </h1>
                 <div class="rows">
-                    <div class="col-md-12" style="border:2px solid black; margin:0px;">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, eaque natus! Esse dolor tempore
-                            reprehenderit adipisci quia incidunt magnam, magni suscipit! Excepturi nostrum est fuga distinctio
-                            ullam aliquam? Molestiae, cumque!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero animi vel eligendi consequatur,
-                            quidem odio excepturi delectus eum. Corporis harum autem adipisci iste! Cupiditate inventore
-                            sapiente pariatur illum est!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste hic dolor fugiat perferendis.
-                            Incidunt, qui vero ipsa, impedit, nulla maiores ducimus suscipit fugit molestiae sequi sed consequatur.
-                            Dolores, suscipit!
-                        </p>
+                    <div class="col-md-12">
+                        <h4>The Liquor Control Board of Ontario maintains detailed records on store attributes, including the
+                            existence of special occasion permits, handicap access, vintages corner, product consultant bilingual
+                            services, parking, and more.</h4>
+                        <h4>This graph visualizes one such characteristic: whether the retail location features a beer cold room.
+                            If already chilled beer is what you seek, you’ll be pleased to learn a majority of Ontario’s
+                            retailers offer such service. The below graph visualizes the proportion of stores with and without
+                            chill rooms. It turns out Ontario’s snows aren’t quite enough to keep beers cold!</h4>
+
 
 
                         <!-- <h3>My Google Maps Demo</h3>
@@ -253,8 +255,88 @@
         </div>
 
 
+        <div id="productPage">
+            <div class="container text-center">
+                <h1>
+                    <strong>-Our Crafty Picks-</strong>
+                </h1>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Goose Island Honkers Ale</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/449249.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 449249 | 473 mL can</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Cowbell Kelly's Contraption</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/526814.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 526814 | 473 mL can</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Bench Brewing Ball's Falls Session IPA</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/481515.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 481515 | 473 mL can</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
 
-        
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Bench Brewing Twenty Mile Farmhouse Ale</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/508515.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 508515 | 473 mL can</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Big Rig Midnight Kissed My Cow</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/474072.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 474072 | 473 mL can</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Monty's Aged Ryed Ale</div>
+                                <div class="panel-body">
+                                    <img src="http://www.lcbo.com/content/dam/lcbo/products/498691.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"
+                                        style="width:100%; height:360px;" alt="Image">
+                                </div>
+                                <div class="panel-footer">—LCBO# 498691 | 473 mL can</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+
         <script>
             d3.json('/data/location', function (data) {
                 var data = data;
@@ -387,7 +469,7 @@
                 // Plotly.newPlot('myDiv', data);
 
                 var dataBeerRoom = dataBeerRoom
-                
+
 
 
                 Highcharts.chart('container', {
@@ -426,7 +508,7 @@
                         }, {
                             name: 'False',
                             y: 248,
-                           
+
                         }]
                     }]
                 });
