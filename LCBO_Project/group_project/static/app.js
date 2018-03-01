@@ -21,7 +21,7 @@ d3.json('/data/location', function (data) {
     document.getElementById('addressOne').innerHTML = "Address:" + " " + String(address_One);
     document.getElementById('distanceOne').innerHTML = "Distance:" + " " + String(Math.round(
             distance_One / 1609)) + " " +
-        "m";
+        "mi away";
     document.getElementById('phoneOne').innerHTML = "Phone:" + " " + String(phone_One);
 
 
@@ -45,7 +45,7 @@ d3.json('/data/location', function (data) {
     document.getElementById('cityTwo').innerHTML = "City:" + " " + String(city_Two);
     document.getElementById('addressTwo').innerHTML = "Address:" + " " + String(address_Two);
     document.getElementById('distanceTwo').innerHTML = "Distance:" + " " + String(Math.round(
-        distance_Two / 1609)) + " " + "m";
+        distance_Two / 1609)) + " " + "mi away";
     document.getElementById('phoneTwo').innerHTML = "Phone:" + " " + String(phone_Two);
 
 
@@ -69,7 +69,7 @@ d3.json('/data/location', function (data) {
     document.getElementById('cityThree').innerHTML = "City:" + " " + String(city_Three);
     document.getElementById('addressThree').innerHTML = "Address:" + " " + String(address_Three);
     document.getElementById('distanceThree').innerHTML = "Distance:" + " " + String(Math.round(
-        distance_Three / 1609)) + " " + "m";
+        distance_Three / 1609)) + " " + "mi away";
     document.getElementById('phoneThree').innerHTML = "Phone:" + " " + String(phone_Three);
 
 
@@ -99,16 +99,16 @@ d3.json('/data/location', function (data) {
 
     location_one.bindPopup("<b>Store Name: " + String(name_One) + "</b><br>" + "Distance:" + " " +
             String(Math.round(
-                distance_One / 1609)) + " " + "miles away"),
+                distance_One / 1609)) + " " + "mi away"),
 
         location_two.bindPopup("<b>Store Name: " + String(name_Two) + "</b><br>" + "Distance:" +
             " " +
             String(Math.round(
-                distance_Two / 1609)) + " " + "miles away"),
+                distance_Two / 1609)) + " " + "mi away"),
 
         location_three.bindPopup("<b>Store Name: " + String(name_Three) + "</b><br>" + "Distance:" +
             " " + String(Math.round(
-                distance_Three / 1609)) + " " + "miles away");
+                distance_Three / 1609)) + " " + "mi away");
 
 
 
