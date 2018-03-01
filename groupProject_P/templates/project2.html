@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LCBO Project</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="project2.css"> -->
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Oxygen', sans-serif;
+        }
+
+        #heading {
+            background-image: url(https://images.pexels.com/photos/1862/summer-sunshine-alcohol-drink.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+            color: whitesmoke;
+            image-rendering: crisp-edges;
+            background-repeat: no-repeat;
+            opacity: 0.7;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="heading" class="jumbotron jumbotron-fluid" style="text-align:center; height:50%;">
+
+
+        <h1>Find Your Local Beer Store in Ontario</h1>
+
+        <div class="container">
+            <h3>This search uses location data supplied by the Liquor Control Board of Ontario (LCBO) plus user-input postal
+                codes to return the nearest LCBO retailer. </h3>
+        </div>
+    </div>
+
+    <div class="line" style="background :NavajoWhite; position:relative; height:8px"></div>
+    <hr>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="http://www.lcbo.com/content/lcbo/en/pages/beer/486-craft-beers-on-the-wall/_jcr_content/hero-content/enhanced_product_her.img.jpg/1515771376964.jpg"
+                    class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4" style="width:350px;height:auto; margin-left: 20px; margin-right: 20px; background-color:NavajoWhite; border:gold solid 1px;">
+                <h4>
+                    <b>Enter Your Zip Code</b>
+                </h4>
+                <ul>
+                    <form method="POST" action="/send" role="form" , name="petform">
+                        <div class="col-sm-8 form-group">
+
+                            <label for="inputName" style="margin-top:12px">
+                                <b>Country Abbrev:</b>
+                            </label>
+                            <input type="text" id="inputName" name="country" placeholder="Country">
+                            <br>
+
+                            <label for="inputName">Zip Code: </label>
+                            <input type="text" id="inputName" name="zipcode" placeholder="Location">
+                        </div>
+                        <input type="submit" style="margin-top:70px" value="Submit" class="btn btn-info btn-lg">
+                    </form>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <img src="http://www.lcbo.com/content/lcbo/en/pages/beer/214-lagers-on-the-wall/_jcr_content/hero-content/enhanced_product_her.img.jpg/1513271593463.jpg"
+                    class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="line" style="background :NavajoWhite; position:relative; height:8px"></div>
+
+    <div class="height" style="height:80px"></div>
+
+    <hr>
+    <!-- heigh div -->
+    <div class="height" style="height:50px"></div>
+    <div class="container text-center" style="background-image: url('beer 25% size improved, cropped.jpg');">
+        <h1>
+            <u> Nearest Locations</u>
+        </h1>
+        <div class="rows">
+            <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px">
+                <h2>
+                    <u> Location</u>
+                </h2>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non praesentium
+                    deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae ea?
+                </p>
+                <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
+                    esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.
+                </b></p>
+
+            </div>
+            <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px">
+
+                <h2>
+                    <u> Location</u>
+                </h2>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non praesentium
+                    deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae ea?
+                </b></p>
+                <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
+                    esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.
+                </b></p>
+            </div>
+            <div class="col-md-3" style="border:lightgrey solid 1px; margin:40px;">
+
+                <h2>
+                    <u> Location</u>
+                </h2>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim nam tempora nihil eligendi odit non praesentium
+                    deserunt harum. Maiores nulla facere iure ratione numquam eaque pariatur laborum beatae ea?
+                </b></p>
+                <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate error, aut id debitis ex cum quisquam
+                    esse eius quae natus architecto sapiente laboriosam ipsa saepe optio eos ad consequuntur fuga.
+                </b></p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Product-->
+
+    <div class="container text-center" style="background-image: url('beer 25% size improved, cropped.jpg'); border:1px solid lightgrey;">
+        <h1>
+            <u> Products We sell</u>
+        </h1>
+
+        <div class="rows">
+
+            <div class="col-md-3" style="border:1px solid lightgrey; margin:40px;">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, eaque natus! Esse dolor tempore reprehenderit
+                    adipisci quia incidunt magnam, magni suscipit! Excepturi nostrum est fuga distinctio ullam aliquam? Molestiae,
+                    cumque!</p>
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero animi vel eligendi consequatur,
+                    quidem odio excepturi delectus eum. Corporis harum autem adipisci iste! Cupiditate inventore sapiente
+                    pariatur illum est!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste hic dolor fugiat perferendis. Incidunt,
+                    qui vero ipsa, impedit, nulla maiores ducimus suscipit fugit molestiae sequi sed consequatur. Dolores,
+                    suscipit!
+                </p>
+            </div>
+
+            <div class="col-md-3" style="border:1px solid lightgrey; margin:40px;">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, eaque natus! Esse dolor tempore reprehenderit
+                    adipisci quia incidunt magnam, magni suscipit! Excepturi nostrum est fuga distinctio ullam aliquam? Molestiae,
+                    cumque!</p>
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero animi vel eligendi consequatur,
+                    quidem odio excepturi delectus eum. Corporis harum autem adipisci iste! Cupiditate inventore sapiente
+                    pariatur illum est!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste hic dolor fugiat perferendis. Incidunt,
+                    qui vero ipsa, impedit, nulla maiores ducimus suscipit fugit molestiae sequi sed consequatur. Dolores,
+                    suscipit!
+                </p>
+            </div>
+
+            <div class="col-md-3" style="border:1px solid lightgrey;margin:40px;">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, eaque natus! Esse dolor tempore reprehenderit
+                    adipisci quia incidunt magnam, magni suscipit! Excepturi nostrum est fuga distinctio ullam aliquam? Molestiae,
+                    cumque!</p>
+
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda libero animi vel eligendi consequatur,
+                    quidem odio excepturi delectus eum. Corporis harum autem adipisci iste! Cupiditate inventore sapiente
+                    pariatur illum est!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste hic dolor fugiat perferendis. Incidunt,
+                    qui vero ipsa, impedit, nulla maiores ducimus suscipit fugit molestiae sequi sed consequatur. Dolores,
+                    suscipit!
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="map"></div>
+
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script>
+        var data = [{
+            type: 'scattermapbox',
+            lat: ['45.5017', '45.3000'],
+            lon: ['-73.5673', '-73.5674'],
+            mode: 'markers',
+            marker: {
+                size: 14
+            },
+            text: ['Montreal']
+        }]
+
+        var layout = {
+            autosize: false,
+            hovermode: 'closest',
+            mapbox: {
+                bearing: 0,
+                center: {
+                    lat: 45,
+                    lon: -73
+                },
+                pitch: 0,
+                zoom: 4,
+
+            },
+        }
+
+        Plotly.setPlotConfig({
+            mapboxAccessToken: 'pk.eyJ1IjoiZXRwaW5hcmQiLCJhIjoiY2luMHIzdHE0MGFxNXVubTRxczZ2YmUxaCJ9.hwWZful0U2CQxit4ItNsiQ'
+        })
+
+        Plotly.plot('map', data, layout)
+    </script>
+    </div>
+
+</body>
+
+</html>
