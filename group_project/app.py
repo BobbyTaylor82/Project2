@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify,redirect,request
-from flask_pymongo import PyMongo
+from flask_pymongo import pymongo
 from .locations import * 
 import os
 
@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 app.config['MONGO_URI'] = MONGODB_URI
 
-client = PyMongo.MongoClient()
+client = pymongo.MongoClient()
 db = client.locationDB
 
 locationTable = db.locationDB
