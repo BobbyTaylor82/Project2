@@ -23,5 +23,4 @@ Werkzeug==0.12.2
 gunicorn==19.7.1
 Flask-PyMongo==0.5.1
 requests
-json
-panda
+pandas
