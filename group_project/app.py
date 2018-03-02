@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify,redirect,request
 from flask_pymongo import pymongo
-import os
 from locations import * 
+import os
 
 
 # MONGO_URL = os.environ.get('MONGO_URL')
