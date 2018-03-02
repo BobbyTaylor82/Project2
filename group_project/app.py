@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify,redirect,request
 from flask_pymongo import pymongo
-from locations import * 
+from .locations import * 
 import os
 
 
