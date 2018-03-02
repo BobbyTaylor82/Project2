@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify,redirect,request
-from flask_pymongo import PyMongo
+from flask_pymongo import pymongo
 from .locations import * 
 import os
 
@@ -7,22 +7,22 @@ import os
 # MONGO_URL = os.environ.get('MONGO_URL')
 MONGODB_URI = os.environ.get('MONGODB_URI')
 if not MONGODB_URI:
-    MONGODB_URI = "mongodb://localhost:5000/";
+    MONGODB_URI = "mongodb://localhost:5000/"
 
 
 app = Flask(__name__)
 
 app.config['MONGO_URI'] = MONGODB_URI
 
-# client = pymongo.MongoClient()
-# db = client.locationDB
-mongo = PyMongo(app)
+client = pymongo.MongoClient()
+db = client.locationDB
+# mongo = PyMongo(app)
 
 
 @app.route("/")
 def index ():
     locationList = []
-    for location in mongo.db.locationTable.find():
+    for location in db.locationTable.find():
         location.pop('_id')
         locationList.append(location)   
     locationList = jsonify(locationList)
@@ -32,7 +32,7 @@ def index ():
 def address(): 
     try:
 
-        mongo.db.locationTable.remove()
+        db.locationTable.remove()
 
         if request.method == "POST":
             zip = request.form['zipcode']
@@ -40,12 +40,11 @@ def address():
 
         
         closetLocation_data = threeNearestLocation(zip,country)
-        mongo.db.locationTable.insert_one({"locations": closetLocation_data})
+        db.locationTable.insert_one({"locations": closetLocation_data})
 
-        print(mongo.db.locationTable.find())
-       
+        print(db.locationTable.find())
 
-        return redirect('http://localhost:5000/',code=302)    
+        return redirect('/', code=302)    
     except:
 
         return "Enter a valid two-letter country code and postal code combination (examples: ca, M4C; us, 78705)"
@@ -54,7 +53,7 @@ def address():
 def locationData():
     
     locationList = []
-    for location in mongo.db.locationTable.find():
+    for location in db.locationTable.find():
         location.pop('_id')
         locationList.append(location)
         
@@ -86,7 +85,7 @@ def BeerRoomDATA():
 
 
     
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
 
     
