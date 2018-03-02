@@ -30,6 +30,10 @@ The goal of this project is to analyze and visualize aspects of Ontario's Liquor
 ## Github repository:
 [Repo](https://github.com/ludanny16/Project2)
 
+## Heroku App link:
+
+[Heroku](https://mysterious-bayou-99069.herokuapp.com/)
+
 ## Technologies leveraged:
 
 * Python Flask-powered API
