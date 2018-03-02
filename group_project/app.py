@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify,redirect,request
-from flask_pymongo import pymongo
+from flask_pymongo import PyMongo
 from .locations import * 
 import os
 
@@ -14,15 +14,15 @@ app = Flask(__name__)
 
 app.config['MONGO_URI'] = MONGODB_URI
 
-client = pymongo.MongoClient()
-db = client.locationDB
-# mongo = PyMongo(app)
+# client = pymongo.MongoClient()
+# db = client.locationDB
+mongo = PyMongo(app)
 
 
 @app.route("/")
 def index ():
     locationList = []
-    for location in db.locationTable.find():
+    for location in mongo.db.locationTable.find():
         location.pop('_id')
         locationList.append(location)   
     locationList = jsonify(locationList)
@@ -32,7 +32,7 @@ def index ():
 def address(): 
     try:
 
-        db.locationTable.remove()
+        mongo.db.locationTable.remove()
 
         if request.method == "POST":
             zip = request.form['zipcode']
@@ -40,9 +40,9 @@ def address():
 
         
         closetLocation_data = threeNearestLocation(zip,country)
-        db.locationTable.insert_one({"locations": closetLocation_data})
+        mongo.db.locationTable.insert_one({"locations": closetLocation_data})
 
-        print(db.locationTable.find())
+        print(mongo.db.locationTable.find())
 
         return redirect('/', code=302)    
     except:
@@ -53,7 +53,7 @@ def address():
 def locationData():
     
     locationList = []
-    for location in db.locationTable.find():
+    for location in mongo.db.locationTable.find():
         location.pop('_id')
         locationList.append(location)
         
